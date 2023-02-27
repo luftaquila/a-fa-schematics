@@ -1,0 +1,175 @@
+정보: 'C:\Users\kbc9513\Desktop\충전차단회로\충전차단회로.net' 네트리스트 파일을 읽고 있습니다.
+
+정보: 참조 지정자를 사용하여 심볼과 풋프린트를 일치시킵니다.
+
+정보: 심볼 'R1:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' 처리 중입니다.
+정보: 심볼 'R2:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' 처리 중입니다.
+정보: 심볼 'R3:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' 처리 중입니다.
+정보: 심볼 'D6:LED_THT:LED_D5.0mm' 처리 중입니다.
+정보: 심볼 'J2:LED_THT:LED_D5.0mm' 처리 중입니다.
+정보: 심볼 'R4:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal' 처리 중입니다.
+정보: 심볼 'J3:LED_THT:LED_D5.0mm' 처리 중입니다.
+정보: 심볼 'D3:LED_THT:LED_D5.0mm' 처리 중입니다.
+정보: 심볼 'U1:Goolgle_Drive_Library:ADJ14012' 처리 중입니다.
+정보: 심볼 'J1:LED_THT:LED_D5.0mm' 처리 중입니다.
+정보: 심볼 'U2:Goolgle_Drive_Library:ADJ14012' 처리 중입니다.
+정보: 심볼 'D1:Diode_THT:D_DO-15_P10.16mm_Horizontal' 처리 중입니다.
+정보: 심볼 'D2:Diode_THT:D_DO-15_P10.16mm_Horizontal' 처리 중입니다.
+정보: 심볼 'D4:Diode_THT:D_DO-15_P10.16mm_Horizontal' 처리 중입니다.
+정보: 심볼 'D5:Diode_THT:D_DO-15_P10.16mm_Horizontal' 처리 중입니다.
+정보: 심볼 'J4:Connector_Wire:SolderWire-0.75sqmm_1x02_P4.8mm_D1.25mm_OD2.3mm' 처리 중입니다.
+정보: 심볼 'J5:Connector_JST:JST_EH_B10B-EH-A_1x10_P2.50mm_Vertical' 처리 중입니다.
+네트 Net-(R1-Pad2)을(를) 추가합니다.
+R1 핀 2을(를) Net-(R1-Pad2)에 연결했습니다.
+R2이(가) 추가되었습니다 (풋프린트 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal').
+참조 지정자 REF**을(를) R2(으)로 변경하였습니다.
+값 R2을(를) R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal에서 500(으)로 변경하였습니다.
+R2 심볼 관련성을 에서 /9cac4b8f-fc90-46aa-9ba6-c3c9f12e7e00(으)로 업데이트하였습니다.
+R2 속성이 업데이트되었습니다.
+네트 GND을(를) 추가합니다.
+R2 핀 1을(를) GND에 연결했습니다.
+R2 핀 2을(를) Net-(D3-Pad2)에 연결했습니다.
+R3이(가) 추가되었습니다 (풋프린트 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal').
+참조 지정자 REF**을(를) R3(으)로 변경하였습니다.
+값 R3을(를) R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal에서 1.5k(으)로 변경하였습니다.
+R3 심볼 관련성을 에서 /c4ed5e0d-1470-49a7-b4d8-6793531b15c6(으)로 업데이트하였습니다.
+R3 속성이 업데이트되었습니다.
+네트 Net-(D6-Pad2)을(를) 추가합니다.
+R3 핀 1을(를) Net-(D6-Pad2)에 연결했습니다.
+네트 Net-(R3-Pad2)을(를) 추가합니다.
+R3 핀 2을(를) Net-(R3-Pad2)에 연결했습니다.
+R4이(가) 추가되었습니다 (풋프린트 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal').
+참조 지정자 REF**을(를) R4(으)로 변경하였습니다.
+값 R4을(를) R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal에서 500(으)로 변경하였습니다.
+R4 심볼 관련성을 에서 /f852aa6c-fee4-4d12-afd9-4db3451e35ae(으)로 업데이트하였습니다.
+R4 속성이 업데이트되었습니다.
+R4 핀 1을(를) GND에 연결했습니다.
+R4 핀 2을(를) Net-(D6-Pad2)에 연결했습니다.
+D3이(가) 추가되었습니다 (풋프린트 'LED_THT:LED_D5.0mm').
+참조 지정자 REF**을(를) D3(으)로 변경하였습니다.
+값 D3을(를) LED_D5.0mm에서 LED(으)로 변경하였습니다.
+D3 심볼 관련성을 에서 /42a2bed2-408c-4340-bf5e-717f9ef794f6(으)로 업데이트하였습니다.
+D3 속성이 업데이트되었습니다.
+D3 핀 1을(를) GND에 연결했습니다.
+D3 핀 2을(를) Net-(D3-Pad2)에 연결했습니다.
+D6이(가) 추가되었습니다 (풋프린트 'LED_THT:LED_D5.0mm').
+참조 지정자 REF**을(를) D6(으)로 변경하였습니다.
+값 D6을(를) LED_D5.0mm에서 LED(으)로 변경하였습니다.
+D6 심볼 관련성을 에서 /54d4ccdd-eadf-48c0-9c4d-c1c9c0573c55(으)로 업데이트하였습니다.
+D6 속성이 업데이트되었습니다.
+D6 핀 1을(를) GND에 연결했습니다.
+D6 핀 2을(를) Net-(D6-Pad2)에 연결했습니다.
+J1이(가) 추가되었습니다 (풋프린트 'LED_THT:LED_D5.0mm').
+참조 지정자 REF**을(를) J1(으)로 변경하였습니다.
+값 J1을(를) LED_D5.0mm에서 Push-Rotate(으)로 변경하였습니다.
+J1 심볼 관련성을 에서 /b73f0b34-054d-4499-b93b-f1d81da21695(으)로 업데이트하였습니다.
+J1 속성이 업데이트되었습니다.
+네트 Net-(J1-Pad1)을(를) 추가합니다.
+J1 핀 1을(를) Net-(J1-Pad1)에 연결했습니다.
+네트 CHARGE_POWER을(를) 추가합니다.
+J1 핀 2을(를) CHARGE_POWER에 연결했습니다.
+J2이(가) 추가되었습니다 (풋프린트 'LED_THT:LED_D5.0mm').
+참조 지정자 REF**을(를) J2(으)로 변경하였습니다.
+값 J2을(를) LED_D5.0mm에서 Charging_Interlock(으)로 변경하였습니다.
+J2 심볼 관련성을 에서 /5271f79e-a5a9-419a-907c-0455a139a4e2(으)로 업데이트하였습니다.
+J2 속성이 업데이트되었습니다.
+네트 Net-(J2-Pad1)을(를) 추가합니다.
+J2 핀 1을(를) Net-(J2-Pad1)에 연결했습니다.
+J2 핀 2을(를) Net-(J1-Pad1)에 연결했습니다.
+J3이(가) 추가되었습니다 (풋프린트 'LED_THT:LED_D5.0mm').
+참조 지정자 REF**을(를) J3(으)로 변경하였습니다.
+값 J3을(를) LED_D5.0mm에서 reset(으)로 변경하였습니다.
+J3 심볼 관련성을 에서 /431705a8-970b-4ff5-b043-d4baa9fe7a97(으)로 업데이트하였습니다.
+J3 속성이 업데이트되었습니다.
+네트 Reset_Button을(를) 추가합니다.
+J3 핀 1을(를) Reset_Button에 연결했습니다.
+J3 핀 2을(를) GND에 연결했습니다.
+U1이(가) 추가되었습니다 (풋프린트 'Goolgle_Drive_Library:ADJ14012').
+참조 지정자 REF**을(를) U1(으)로 변경하였습니다.
+값 U1을(를) RELAY_ADJ_1C_PAN에서 ADJ14012(으)로 변경하였습니다.
+U1 심볼 관련성을 에서 /4dad1e6b-5c80-4c11-8ad5-7b16562ecc74(으)로 업데이트하였습니다.
+U1 속성이 업데이트되었습니다.
+U1 핀 1을(를) CHARGE_POWER에 연결했습니다.
+네트 IMD_FAULT을(를) 추가합니다.
+U1 핀 9을(를) IMD_FAULT에 연결했습니다.
+U1 핀 8을(를) Reset_Button에 연결했습니다.
+네트 Net-(U1-Pad2)을(를) 추가합니다.
+U1 핀 2을(를) Net-(U1-Pad2)에 연결했습니다.
+U1 핀 6을(를) Net-(R1-Pad2)에 연결했습니다.
+U1 핀 4을(를) Net-(J2-Pad1)에 연결했습니다.
+R1이(가) 추가되었습니다 (풋프린트 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal').
+U2이(가) 추가되었습니다 (풋프린트 'Goolgle_Drive_Library:ADJ14012').
+참조 지정자 REF**을(를) U2(으)로 변경하였습니다.
+값 U2을(를) RELAY_ADJ_1C_PAN에서 ADJ14012(으)로 변경하였습니다.
+U2 심볼 관련성을 에서 /b592de20-0538-4c3f-838d-1e2c5cb1cc5b(으)로 업데이트하였습니다.
+U2 속성이 업데이트되었습니다.
+U2 핀 1을(를) CHARGE_POWER에 연결했습니다.
+네트 CHARGE_SAFETY을(를) 추가합니다.
+U2 핀 9을(를) CHARGE_SAFETY에 연결했습니다.
+U2 핀 8을(를) Reset_Button에 연결했습니다.
+네트 AIR+_ACTIVE을(를) 추가합니다.
+U2 핀 2을(를) AIR+_ACTIVE에 연결했습니다.
+U2 핀 6을(를) Net-(R3-Pad2)에 연결했습니다.
+U2 핀 4을(를) Net-(U1-Pad2)에 연결했습니다.
+참조 지정자 REF**을(를) R1(으)로 변경하였습니다.
+D1이(가) 추가되었습니다 (풋프린트 'Diode_THT:D_DO-15_P10.16mm_Horizontal').
+참조 지정자 REF**을(를) D1(으)로 변경하였습니다.
+값 D1을(를) D_DO-15_P10.16mm_Horizontal에서 1N4001(으)로 변경하였습니다.
+D1 심볼 관련성을 에서 /04f6e974-f1aa-4eba-86e4-b6ef5f9aab0c(으)로 업데이트하였습니다.
+D1 속성이 업데이트되었습니다.
+D1 핀 1을(를) CHARGE_POWER에 연결했습니다.
+D1 핀 2을(를) Reset_Button에 연결했습니다.
+값 R1을(를) R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal에서 1.5k(으)로 변경하였습니다.
+D2이(가) 추가되었습니다 (풋프린트 'Diode_THT:D_DO-15_P10.16mm_Horizontal').
+참조 지정자 REF**을(를) D2(으)로 변경하였습니다.
+값 D2을(를) D_DO-15_P10.16mm_Horizontal에서 1N4001(으)로 변경하였습니다.
+D2 심볼 관련성을 에서 /54878bf1-8f32-4bae-9656-436220390256(으)로 업데이트하였습니다.
+D2 속성이 업데이트되었습니다.
+D2 핀 1을(를) CHARGE_POWER에 연결했습니다.
+D2 핀 2을(를) IMD_FAULT에 연결했습니다.
+R1 심볼 관련성을 에서 /6292f032-e986-4e86-8de2-ea34f8531d00(으)로 업데이트하였습니다.
+D4이(가) 추가되었습니다 (풋프린트 'Diode_THT:D_DO-15_P10.16mm_Horizontal').
+참조 지정자 REF**을(를) D4(으)로 변경하였습니다.
+값 D4을(를) D_DO-15_P10.16mm_Horizontal에서 1N4001(으)로 변경하였습니다.
+D4 심볼 관련성을 에서 /92f338f3-3812-48b7-a538-72a2acf5d354(으)로 업데이트하였습니다.
+D4 속성이 업데이트되었습니다.
+D4 핀 1을(를) CHARGE_POWER에 연결했습니다.
+D4 핀 2을(를) Reset_Button에 연결했습니다.
+R1 속성이 업데이트되었습니다.
+D5이(가) 추가되었습니다 (풋프린트 'Diode_THT:D_DO-15_P10.16mm_Horizontal').
+참조 지정자 REF**을(를) D5(으)로 변경하였습니다.
+값 D5을(를) D_DO-15_P10.16mm_Horizontal에서 1N4001(으)로 변경하였습니다.
+D5 심볼 관련성을 에서 /d5f5c3b9-1b42-4bee-8aa3-7b56f2060ad2(으)로 업데이트하였습니다.
+D5 속성이 업데이트되었습니다.
+D5 핀 1을(를) CHARGE_POWER에 연결했습니다.
+D5 핀 2을(를) CHARGE_SAFETY에 연결했습니다.
+네트 Net-(D3-Pad2)을(를) 추가합니다.
+J4이(가) 추가되었습니다 (풋프린트 'Connector_Wire:SolderWire-0.75sqmm_1x02_P4.8mm_D1.25mm_OD2.3mm').
+참조 지정자 REF**을(를) J4(으)로 변경하였습니다.
+값 J4을(를) SolderWire-0.75sqmm_1x02_P4.8mm_D1.25mm_OD2.3mm에서 SMPS INPUT(으)로 변경하였습니다.
+J4 심볼 관련성을 에서 /914a5bc4-e45f-4260-9574-6d60e49f788f(으)로 업데이트하였습니다.
+J4 속성이 업데이트되었습니다.
+J4에 'BOM에서 제외' 제작 속성이 제거되었습니다.
+J4 핀 1을(를) CHARGE_POWER에 연결했습니다.
+J4 핀 2을(를) GND에 연결했습니다.
+R1 핀 1을(를) Net-(D3-Pad2)에 연결했습니다.
+J5이(가) 추가되었습니다 (풋프린트 'Connector_JST:JST_EH_B10B-EH-A_1x10_P2.50mm_Vertical').
+참조 지정자 REF**을(를) J5(으)로 변경하였습니다.
+값 J5을(를) JST_EH_B10B-EH-A_1x10_P2.50mm_Vertical에서 Conn_01x10_Male(으)로 변경하였습니다.
+J5 심볼 관련성을 에서 /5f07ac3b-b444-4c3e-bbea-05685bee6cad(으)로 업데이트하였습니다.
+J5 속성이 업데이트되었습니다.
+J5 핀 1을(를) CHARGE_POWER에 연결했습니다.
+J5 핀 2을(를) GND에 연결했습니다.
+J5 핀 3을(를) IMD_FAULT에 연결했습니다.
+J5 핀 4을(를) AIR+_ACTIVE에 연결했습니다.
+J5 핀 5을(를) AIR+_ACTIVE에 연결했습니다.
+네트 unconnected-(J5-Pad6)을(를) 추가합니다.
+J5 핀 6을(를) unconnected-(J5-Pad6)에 연결했습니다.
+네트 unconnected-(J5-Pad7)을(를) 추가합니다.
+J5 핀 7을(를) unconnected-(J5-Pad7)에 연결했습니다.
+J5 핀 8을(를) CHARGE_POWER에 연결했습니다.
+J5 핀 9을(를) CHARGE_SAFETY에 연결했습니다.
+J5 핀 10을(를) GND에 연결했습니다.
+
+
+정보: 총 경고: 0개, 오류: 0개.

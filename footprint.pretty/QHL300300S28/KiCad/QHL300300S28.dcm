@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP QHL300300S28
+D Isolated DC/DC Converters DC-DC 300W 180-425VDC INPUT 1/4 BRICK
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/eb163ed829194035f4784d5866aa88af.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,196 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "QHL300300S28"
+   (description "Isolated DC/DC Converters DC-DC 300W 180-425VDC INPUT 1/4 BRICK")
+   (family "ANA")
+   (package "QHL300300S28")
+   (attribute "Datasheet Link" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/eb163ed829194035f4784d5866aa88af.pdf")
+   (attribute "Geometry.Height" "13.2mm")
+   (attribute "Manufacturer_Name" "XP POWER")
+   (attribute "Manufacturer_Part_Number" "QHL300300S28")
+   (attribute "Mouser Part Number" "209-QHL300300S28")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/XP-Power/QHL300300S28?qs=XeJtXLiO41S1AiIkr8Y80Q%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (attribute "Mouser Testing Part Number" "")
+   (attribute "Mouser Testing Price/Stock" "")
+   (gate
+    (symbol "QHL300300S28")
+    (pin "+VIN" 1 PS)
+    (pin "REMOTE_ON/OFF" 2 PS)
+    (pin "-VIN" 3 PS)
+    (pin "-VOUT" 4 PS)
+    (pin "-SENSE" 5 PS)
+    (pin "TRIM" 6 PS)
+    (pin "+SENSE" 7 PS)
+    (pin "+VOUT" 8 PS)
+    (pin "MH1" MH1 PS)
+    (pin "MH2" MH2 PS)
+    (pin "MH3" MH3 PS)
+    (pin "MH4" MH4 PS)
+   )
+  )
+  (symbol "QHL300300S28"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1500 100) (pt 1500 -700) (pt 200 -700) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -600) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "QHL300300S28"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.8 12.75)
+      (pt 53.1 12.75)
+      (pt 53.1 -48.25)
+      (pt -4.8 -48.25)
+      (pt -4.8 12.75))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.8 -49.25)
+      (pt 54.1 -49.25)
+      (pt 54.1 13.75)
+      (pt -5.8 13.75)
+      (pt -5.8 -49.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -4.8 -48.25)
+      (pt 53.15 -48.25)
+      (pt 53.15 12.75)
+      (pt -4.8 12.75)
+      (pt -4.8 -48.25))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 0.000 -10.150) (padstack 0))
+   (leg 3 (pt 0.000 -35.500) (padstack 0))
+   (leg 4 (pt 48.300 -35.500) (padstack 0))
+   (leg 5 (pt 48.300 -25.350) (padstack 0))
+   (leg 6 (pt 48.300 -17.750) (padstack 0))
+   (leg 7 (pt 48.300 -10.150) (padstack 0))
+   (leg 8 (pt 48.300 0.000) (padstack 0))
+   (leg MH1 (pt 0.000 7.650) (padstack 9))
+   (leg MH2 (pt 48.300 7.650) (padstack 10))
+   (leg MH3 (pt 0.000 -43.150) (padstack 11))
+   (leg MH4 (pt 48.300 -43.150) (padstack 12))
+   (padstack 0
+    (hole 1.22)
+    (plated true)
+    (pad (layer TCOP) (round 1.830))
+    (pad (layer INNER) (round 1.830))
+    (pad (layer BCOP) (round 1.830))
+   )
+   (padstack 1
+    (hole 1.22)
+    (plated true)
+    (pad (layer TCOP) (square 1.830))
+    (pad (layer INNER) (round 1.830))
+    (pad (layer BCOP) (square 1.830))
+   )
+   (padstack 9
+    (hole 3.2)
+    (plated true)
+    (pad (layer TCOP) (round 4.800))
+    (pad (layer INNER) (round 4.800))
+    (pad (layer BCOP) (round 4.800))
+   )
+   (padstack 10
+    (hole 3.2)
+    (plated true)
+    (pad (layer TCOP) (round 4.800))
+    (pad (layer INNER) (round 4.800))
+    (pad (layer BCOP) (round 4.800))
+   )
+   (padstack 11
+    (hole 3.2)
+    (plated true)
+    (pad (layer TCOP) (round 4.800))
+    (pad (layer INNER) (round 4.800))
+    (pad (layer BCOP) (round 4.800))
+   )
+   (padstack 12
+    (hole 3.2)
+    (plated true)
+    (pad (layer TCOP) (round 4.800))
+    (pad (layer INNER) (round 4.800))
+    (pad (layer BCOP) (round 4.800))
+   )
+   (model "QHL300300S28.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

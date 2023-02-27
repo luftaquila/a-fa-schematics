@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "QHL300300S28"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "QHL300300S28")
+        (spec "default")
+    )
+)

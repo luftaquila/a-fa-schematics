@@ -1,0 +1,312 @@
+ERC 보고 (2022-09-02 오후 7:56:26, UTF8 인코딩)
+
+***** 시트 /
+[pin_to_pin]: 수동 및 지정하지 않음 유형의 핀이 연결됨
+    ; Severity: warning
+    @(85.72 mm, 169.54 mm): 심볼 C2 [C_Small] 핀 1 [, 수동, 선]
+    @(-3.17 mm, 60.33 mm): 심볼 U1 [JQ1-12V-F] 핀 1 [1, 지정하지 않음, 선]
+[pin_to_pin]: 수동 및 지정하지 않음 유형의 핀이 연결됨
+    ; Severity: warning
+    @(85.72 mm, 128.91 mm): 심볼 C1 [C_Small] 핀 1 [, 수동, 선]
+    @(-3.17 mm, 60.33 mm): 심볼 U1 [JQ1-12V-F] 핀 1 [1, 지정하지 않음, 선]
+[pin_to_pin]: 전원 입력 및 지정하지 않음 유형의 핀이 연결됨
+    ; Severity: warning
+    @(69.22 mm, 126.36 mm): 심볼 U2 [AMS1117-5.0] 핀 1 [GND, 전원 입력, 선]
+    @(-3.17 mm, 60.33 mm): 심볼 U1 [JQ1-12V-F] 핀 1 [1, 지정하지 않음, 선]
+[pin_not_connected]: 핀이 연결되지 않았습니다
+    ; Severity: error
+    @(-3.17 mm, 65.41 mm): 심볼 U1 [JQ1-12V-F] 핀 4 [4, 지정하지 않음, 선]
+[pin_to_pin]: 지정하지 않음 및 수동 유형의 핀이 연결됨
+    ; Severity: warning
+    @(-3.17 mm, 60.33 mm): 심볼 U1 [JQ1-12V-F] 핀 1 [1, 지정하지 않음, 선]
+    @(93.34 mm, 32.38 mm): 심볼 Q1 [Q_NMOS_GDS] 핀 3 [S, 수동, 선]
+[pin_to_pin]: 지정하지 않음 및 수동 유형의 핀이 연결됨
+    ; Severity: warning
+    @(-3.17 mm, 60.33 mm): 심볼 U1 [JQ1-12V-F] 핀 1 [1, 지정하지 않음, 선]
+    @(89.53 mm, 37.47 mm): 심볼 R2 [R_US] 핀 1 [, 수동, 선]
+[pin_to_pin]: 지정하지 않음 및 수동 유형의 핀이 연결됨
+    ; Severity: warning
+    @(-3.17 mm, 60.33 mm): 심볼 U1 [JQ1-12V-F] 핀 1 [1, 지정하지 않음, 선]
+    @(272.42 mm, 59.05 mm): 심볼 J2 [Conn_01x12_Female] 핀 4 [Pin_4, 수동, 선]
+[lib_symbol_issues]: 현재 구성에 라이브러리 'New_Library'이(가) 포함되어 있지 않습니다.
+    ; Severity: warning
+    @(-48.90 mm, 60.33 mm): 심볼 U1 [JQ1-12V-F]
+[pin_to_pin]: 지정하지 않음 및 수동 유형의 핀이 연결됨
+    ; Severity: warning
+    @(-3.17 mm, 78.11 mm): 심볼 U1 [JQ1-12V-F] 핀 3 [3, 지정하지 않음, 선]
+    @(69.22 mm, 88.27 mm): 심볼 JP1 [Jumper] 핀 1 [1, 수동, 선]
+[pin_to_pin]: 지정하지 않음 및 전원 입력 유형의 핀이 연결됨
+    ; Severity: warning
+    @(-3.17 mm, 78.11 mm): 심볼 U1 [JQ1-12V-F] 핀 3 [3, 지정하지 않음, 선]
+    @(61.59 mm, 118.75 mm): 심볼 U2 [AMS1117-5.0] 핀 3 [VI, 전원 입력, 선]
+[pin_to_pin]: 지정하지 않음 및 수동 유형의 핀이 연결됨
+    ; Severity: warning
+    @(-3.17 mm, 78.11 mm): 심볼 U1 [JQ1-12V-F] 핀 3 [3, 지정하지 않음, 선]
+    @(272.42 mm, 99.69 mm): 심볼 J3 [Conn_01x12_Female] 핀 6 [Pin_6, 수동, 선]
+[pin_to_pin]: 지정하지 않음 및 수동 유형의 핀이 연결됨
+    ; Severity: warning
+    @(-3.17 mm, 78.11 mm): 심볼 U1 [JQ1-12V-F] 핀 3 [3, 지정하지 않음, 선]
+    @(272.42 mm, 104.78 mm): 심볼 J3 [Conn_01x12_Female] 핀 8 [Pin_8, 수동, 선]
+[pin_to_pin]: 지정하지 않음 및 수동 유형의 핀이 연결됨
+    ; Severity: warning
+    @(-3.17 mm, 78.11 mm): 심볼 U1 [JQ1-12V-F] 핀 3 [3, 지정하지 않음, 선]
+    @(272.42 mm, 97.16 mm): 심볼 J3 [Conn_01x12_Female] 핀 5 [Pin_5, 수동, 선]
+[pin_to_pin]: 지정하지 않음 및 수동 유형의 핀이 연결됨
+    ; Severity: warning
+    @(-3.17 mm, 78.11 mm): 심볼 U1 [JQ1-12V-F] 핀 3 [3, 지정하지 않음, 선]
+    @(272.42 mm, 94.61 mm): 심볼 J3 [Conn_01x12_Female] 핀 4 [Pin_4, 수동, 선]
+[pin_to_pin]: 지정하지 않음 및 수동 유형의 핀이 연결됨
+    ; Severity: warning
+    @(-3.17 mm, 78.11 mm): 심볼 U1 [JQ1-12V-F] 핀 3 [3, 지정하지 않음, 선]
+    @(272.42 mm, 102.23 mm): 심볼 J3 [Conn_01x12_Female] 핀 7 [Pin_7, 수동, 선]
+[multiple_net_names]: BMS_HALL와 HALL이(가) 같은 항목에 연결되어 있습니다; BMS_HALL은(는) 네트리스트에 사용됩니다
+    ; Severity: warning
+    @(58.42 mm, 142.24 mm): 전역 라벨 'BMS_HALL'
+    @(59.69 mm, 135.89 mm): 전역 라벨 'HALL'
+[pin_to_pin]: 수동 및 지정하지 않음 유형의 핀이 연결됨
+    ; Severity: warning
+    @(87.00 mm, 151.76 mm): 심볼 R4 [R_US] 핀 2 [, 수동, 선]
+    @(-3.17 mm, 60.33 mm): 심볼 U1 [JQ1-12V-F] 핀 1 [1, 지정하지 않음, 선]
+[pin_to_pin]: 수동 및 지정하지 않음 유형의 핀이 연결됨
+    ; Severity: warning
+    @(87.00 mm, 146.69 mm): 심볼 R3 [R_US] 핀 2 [, 수동, 선]
+    @(-3.17 mm, 60.33 mm): 심볼 U1 [JQ1-12V-F] 핀 1 [1, 지정하지 않음, 선]
+[multiple_net_names]: AIR-_ACTIVE와 HVD_LED이(가) 같은 항목에 연결되어 있습니다; AIR-_ACTIVE은(는) 네트리스트에 사용됩니다
+    ; Severity: warning
+    @(48.90 mm, 90.81 mm): 전역 라벨 'AIR-_ACTIVE'
+    @(69.22 mm, 94.61 mm): 전역 라벨 'HVD_LED'
+[power_pin_not_driven]: 입력 전력 핀이 출력 전력 핀에 의해 구동되지 않음
+    ; Severity: error
+    @(61.59 mm, 118.75 mm): 심볼 U2 [AMS1117-5.0] 핀 3 [VI, 전원 입력, 선]
+[lib_symbol_issues]: Symbol 'Jumper' not found in symbol library 'Device'.
+    ; Severity: warning
+    @(76.83 mm, 88.27 mm): 심볼 JP1 [Jumper]
+[lib_symbol_issues]: Symbol 'RTRIM' not found in symbol library 'Device'.
+    ; Severity: warning
+    @(71.75 mm, 37.47 mm): 심볼 R1 [RTRIM]
+[pin_to_pin]: 수동 및 지정하지 않음 유형의 핀이 연결됨
+    ; Severity: warning
+    @(154.31 mm, 155.57 mm): 심볼 U6 [LM311] 핀 1 [GND, 수동, 선]
+    @(-3.17 mm, 60.33 mm): 심볼 U1 [JQ1-12V-F] 핀 1 [1, 지정하지 않음, 선]
+[pin_to_pin]: 수동 및 지정하지 않음 유형의 핀이 연결됨
+    ; Severity: warning
+    @(154.31 mm, 142.88 mm): 심볼 U5 [LM311] 핀 1 [GND, 수동, 선]
+    @(-3.17 mm, 60.33 mm): 심볼 U1 [JQ1-12V-F] 핀 1 [1, 지정하지 않음, 선]
+[pin_to_pin]: 전원 입력 및 지정하지 않음 유형의 핀이 연결됨
+    ; Severity: warning
+    @(151.76 mm, 142.88 mm): 심볼 U5 [LM311] 핀 4 [V-, 전원 입력, 선]
+    @(-3.17 mm, 60.33 mm): 심볼 U1 [JQ1-12V-F] 핀 1 [1, 지정하지 않음, 선]
+[pin_to_pin]: 전원 입력 및 지정하지 않음 유형의 핀이 연결됨
+    ; Severity: warning
+    @(151.76 mm, 155.57 mm): 심볼 U6 [LM311] 핀 4 [V-, 전원 입력, 선]
+    @(-3.17 mm, 60.33 mm): 심볼 U1 [JQ1-12V-F] 핀 1 [1, 지정하지 않음, 선]
+[multiple_net_names]: BMS_FAULT와 BMS_LED이(가) 같은 항목에 연결되어 있습니다; BMS_FAULT은(는) 네트리스트에 사용됩니다
+    ; Severity: warning
+    @(118.75 mm, 78.11 mm): 전역 라벨 'BMS_FAULT'
+    @(120.02 mm, 65.41 mm): 전역 라벨 'BMS_LED'
+[lib_symbol_issues]: 현재 구성에 라이브러리 'NewThing'이(가) 포함되어 있지 않습니다.
+    ; Severity: warning
+    @(106.05 mm, 98.42 mm): 심볼 RELAY_BMS1 [ADJ14024]
+[unannotated]: 주석이 없는 항목: RV? (단위 1)
+
+    ; Severity: error
+    @(127.64 mm, 126.36 mm): 심볼 RV? [R_Potentiometer_US]
+[duplicate_reference]: 중복된 항목 RV?A
+
+    ; Severity: error
+    @(127.64 mm, 126.36 mm): 심볼 RV? [R_Potentiometer_US]
+    @(127.64 mm, 172.09 mm): 심볼 RV? [R_Potentiometer_US]
+[pin_to_pin]: 수동 및 지정하지 않음 유형의 핀이 연결됨
+    ; Severity: warning
+    @(131.44 mm, 126.36 mm): 심볼 RV? [R_Potentiometer_US] 핀 2 [2, 수동, 선]
+    @(-3.17 mm, 60.33 mm): 심볼 U1 [JQ1-12V-F] 핀 1 [1, 지정하지 않음, 선]
+[pin_not_driven]: 입력 핀이 출력 핀에 의해 구동되지 않음
+    ; Severity: error
+    @(116.20 mm, 90.81 mm): 심볼 RELAY_BMS1 [ADJ14024] 핀 4 [12V, 입력, 선]
+[pin_to_pin]: 수동 및 지정하지 않음 유형의 핀이 연결됨
+    ; Severity: warning
+    @(174.62 mm, 146.69 mm): 심볼 C7 [C_Small] 핀 2 [, 수동, 선]
+    @(-3.17 mm, 60.33 mm): 심볼 U1 [JQ1-12V-F] 핀 1 [1, 지정하지 않음, 선]
+[pin_to_pin]: 전원 입력 및 지정하지 않음 유형의 핀이 연결됨
+    ; Severity: warning
+    @(186.06 mm, 139.06 mm): 심볼 U7 [74LVC1G08] 핀 3 [GND, 전원 입력, 선]
+    @(-3.17 mm, 60.33 mm): 심볼 U1 [JQ1-12V-F] 핀 1 [1, 지정하지 않음, 선]
+[pin_to_pin]: 수동 및 지정하지 않음 유형의 핀이 연결됨
+    ; Severity: warning
+    @(189.87 mm, 149.22 mm): 심볼 R13 [R_US] 핀 2 [, 수동, 선]
+    @(-3.17 mm, 60.33 mm): 심볼 U1 [JQ1-12V-F] 핀 1 [1, 지정하지 않음, 선]
+[multiple_net_names]: IMD_FAULT와 IMD_LED이(가) 같은 항목에 연결되어 있습니다; IMD_FAULT은(는) 네트리스트에 사용됩니다
+    ; Severity: warning
+    @(163.19 mm, 80.64 mm): 전역 라벨 'IMD_FAULT'
+    @(164.47 mm, 67.94 mm): 전역 라벨 'IMD_LED'
+[lib_symbol_issues]: 현재 구성에 라이브러리 'NewThing'이(가) 포함되어 있지 않습니다.
+    ; Severity: warning
+    @(150.50 mm, 100.97 mm): 심볼 RELAY_IMD1 [ADJ14024]
+[pin_not_driven]: 입력 핀이 출력 핀에 의해 구동되지 않음
+    ; Severity: error
+    @(160.66 mm, 93.34 mm): 심볼 RELAY_IMD1 [ADJ14024] 핀 4 [12V, 입력, 선]
+[lib_symbol_issues]: 현재 구성에 라이브러리 'NewThing'이(가) 포함되어 있지 않습니다.
+    ; Severity: warning
+    @(194.94 mm, 103.50 mm): 심볼 RELAY_BSPD1 [ADJ14024]
+[pin_to_pin]: 수동 및 지정하지 않음 유형의 핀이 연결됨
+    ; Severity: warning
+    @(131.44 mm, 172.09 mm): 심볼 RV? [R_Potentiometer_US] 핀 2 [2, 수동, 선]
+    @(-3.17 mm, 60.33 mm): 심볼 U1 [JQ1-12V-F] 핀 1 [1, 지정하지 않음, 선]
+[pin_to_pin]: 전원 입력 및 지정하지 않음 유형의 핀이 연결됨
+    ; Severity: warning
+    @(98.42 mm, 145.41 mm): 심볼 U3 [LMV7219M5] 핀 2 [V-, 전원 입력, 선]
+    @(-3.17 mm, 60.33 mm): 심볼 U1 [JQ1-12V-F] 핀 1 [1, 지정하지 않음, 선]
+[lib_symbol_issues]: Symbol 'LMV7219M5' has been modified in library 'Comparator'.
+    ; Severity: warning
+    @(100.97 mm, 137.79 mm): 심볼 U3 [LMV7219M5]
+[pin_to_pin]: 전원 입력 및 지정하지 않음 유형의 핀이 연결됨
+    ; Severity: warning
+    @(98.42 mm, 153.03 mm): 심볼 U4 [LMV7219M5] 핀 2 [V-, 전원 입력, 선]
+    @(-3.17 mm, 60.33 mm): 심볼 U1 [JQ1-12V-F] 핀 1 [1, 지정하지 않음, 선]
+[power_pin_not_driven]: 입력 전력 핀이 출력 전력 핀에 의해 구동되지 않음
+    ; Severity: error
+    @(98.42 mm, 153.03 mm): 심볼 U4 [LMV7219M5] 핀 2 [V-, 전원 입력, 선]
+[lib_symbol_issues]: Symbol 'LMV7219M5' has been modified in library 'Comparator'.
+    ; Severity: warning
+    @(100.97 mm, 160.66 mm): 심볼 U4 [LMV7219M5]
+[power_pin_not_driven]: 입력 전력 핀이 출력 전력 핀에 의해 구동되지 않음
+    ; Severity: error
+    @(219.07 mm, 144.15 mm): 심볼 U8 [NE555D] 핀 8 [VCC, 전원 입력, 선]
+[pin_to_pin]: 전원 입력 및 지정하지 않음 유형의 핀이 연결됨
+    ; Severity: warning
+    @(219.07 mm, 164.47 mm): 심볼 U8 [NE555D] 핀 1 [GND, 전원 입력, 선]
+    @(-3.17 mm, 60.33 mm): 심볼 U1 [JQ1-12V-F] 핀 1 [1, 지정하지 않음, 선]
+[pin_to_pin]: 수동 및 지정하지 않음 유형의 핀이 연결됨
+    ; Severity: warning
+    @(243.21 mm, 155.57 mm): 심볼 R14 [R_US] 핀 2 [, 수동, 선]
+    @(-3.17 mm, 60.33 mm): 심볼 U1 [JQ1-12V-F] 핀 1 [1, 지정하지 않음, 선]
+[pin_to_pin]: 수동 및 지정하지 않음 유형의 핀이 연결됨
+    ; Severity: warning
+    @(244.47 mm, 154.31 mm): 심볼 Q2 [Q_NMOS_GDS] 핀 3 [S, 수동, 선]
+    @(-3.17 mm, 60.33 mm): 심볼 U1 [JQ1-12V-F] 핀 1 [1, 지정하지 않음, 선]
+[pin_not_connected]: 핀이 연결되지 않았습니다
+    ; Severity: error
+    @(271.78 mm, 43.18 mm): 심볼 J4 [Conn_01x12_Female] 핀 12 [Pin_12, 수동, 선]
+[pin_not_connected]: 핀이 연결되지 않았습니다
+    ; Severity: error
+    @(272.42 mm, 112.39 mm): 심볼 J3 [Conn_01x12_Female] 핀 11 [Pin_11, 수동, 선]
+[multiple_net_names]: BSPD_FAULT와 BSPD_LED이(가) 같은 항목에 연결되어 있습니다; BSPD_FAULT은(는) 네트리스트에 사용됩니다
+    ; Severity: warning
+    @(207.65 mm, 83.19 mm): 전역 라벨 'BSPD_FAULT'
+    @(208.91 mm, 70.48 mm): 전역 라벨 'BSPD_LED'
+[pin_not_connected]: 핀이 연결되지 않았습니다
+    ; Severity: error
+    @(272.42 mm, 74.30 mm): 심볼 J2 [Conn_01x12_Female] 핀 10 [Pin_10, 수동, 선]
+[pin_not_connected]: 핀이 연결되지 않았습니다
+    ; Severity: error
+    @(272.42 mm, 76.83 mm): 심볼 J2 [Conn_01x12_Female] 핀 11 [Pin_11, 수동, 선]
+[pin_not_connected]: 핀이 연결되지 않았습니다
+    ; Severity: error
+    @(272.42 mm, 79.38 mm): 심볼 J2 [Conn_01x12_Female] 핀 12 [Pin_12, 수동, 선]
+[pin_not_connected]: 핀이 연결되지 않았습니다
+    ; Severity: error
+    @(272.42 mm, 69.22 mm): 심볼 J2 [Conn_01x12_Female] 핀 8 [Pin_8, 수동, 선]
+[pin_not_connected]: 핀이 연결되지 않았습니다
+    ; Severity: error
+    @(272.42 mm, 71.75 mm): 심볼 J2 [Conn_01x12_Female] 핀 9 [Pin_9, 수동, 선]
+[global_label_dangling]: 회로도의 다른 곳에서는 연결되지 않은 전역 라벨
+    ; Severity: warning
+    @(265.43 mm, 27.94 mm): 전역 라벨 'HV_AUX2_OUT'
+[global_label_dangling]: 회로도의 다른 곳에서는 연결되지 않은 전역 라벨
+    ; Severity: warning
+    @(265.43 mm, 15.24 mm): 전역 라벨 'LV_MASTER_IN'
+[global_label_dangling]: 회로도의 다른 곳에서는 연결되지 않은 전역 라벨
+    ; Severity: warning
+    @(265.43 mm, 17.78 mm): 전역 라벨 'LV_MASTER_OUT'
+[global_label_dangling]: 회로도의 다른 곳에서는 연결되지 않은 전역 라벨
+    ; Severity: warning
+    @(265.43 mm, 20.32 mm): 전역 라벨 'HV_AUX1_IN'
+[global_label_dangling]: 회로도의 다른 곳에서는 연결되지 않은 전역 라벨
+    ; Severity: warning
+    @(265.43 mm, 22.86 mm): 전역 라벨 'HV_AUX1_OUT'
+[global_label_dangling]: 회로도의 다른 곳에서는 연결되지 않은 전역 라벨
+    ; Severity: warning
+    @(265.43 mm, 25.40 mm): 전역 라벨 'HV_AUX2_IN'
+[global_label_dangling]: 회로도의 다른 곳에서는 연결되지 않은 전역 라벨
+    ; Severity: warning
+    @(265.43 mm, 38.10 mm): 전역 라벨 'BOTS_OUT'
+[global_label_dangling]: 회로도의 다른 곳에서는 연결되지 않은 전역 라벨
+    ; Severity: warning
+    @(265.43 mm, 30.48 mm): 전역 라벨 'HV_AUX3_IN'
+[global_label_dangling]: 회로도의 다른 곳에서는 연결되지 않은 전역 라벨
+    ; Severity: warning
+    @(265.43 mm, 33.02 mm): 전역 라벨 'HV_AUX3_OUT'
+[global_label_dangling]: 회로도의 다른 곳에서는 연결되지 않은 전역 라벨
+    ; Severity: warning
+    @(265.43 mm, 35.56 mm): 전역 라벨 'BOTS_IN'
+[pin_not_connected]: 핀이 연결되지 않았습니다
+    ; Severity: error
+    @(271.78 mm, 40.64 mm): 심볼 J4 [Conn_01x12_Female] 핀 11 [Pin_11, 수동, 선]
+[pin_not_connected]: 핀이 연결되지 않았습니다
+    ; Severity: error
+    @(282.57 mm, 121.92 mm): 심볼 J1 [Conn_01x15_Female] 핀 1 [Pin_1, 수동, 선]
+[pin_not_connected]: 핀이 연결되지 않았습니다
+    ; Severity: error
+    @(282.57 mm, 124.46 mm): 심볼 J1 [Conn_01x15_Female] 핀 2 [Pin_2, 수동, 선]
+[pin_not_connected]: 핀이 연결되지 않았습니다
+    ; Severity: error
+    @(282.57 mm, 127.00 mm): 심볼 J1 [Conn_01x15_Female] 핀 3 [Pin_3, 수동, 선]
+[global_label_dangling]: 회로도의 다른 곳에서는 연결되지 않은 전역 라벨
+    ; Severity: warning
+    @(270.51 mm, 147.32 mm): 전역 라벨 'HVD_INTERLOCK_OUT'
+[global_label_dangling]: 회로도의 다른 곳에서는 연결되지 않은 전역 라벨
+    ; Severity: warning
+    @(270.51 mm, 144.78 mm): 전역 라벨 'HVD_INTERLOCK_IN'
+[global_label_dangling]: 회로도의 다른 곳에서는 연결되지 않은 전역 라벨
+    ; Severity: warning
+    @(270.51 mm, 142.24 mm): 전역 라벨 'HV_MASTER_OUT'
+[global_label_dangling]: 회로도의 다른 곳에서는 연결되지 않은 전역 라벨
+    ; Severity: warning
+    @(270.51 mm, 139.70 mm): 전역 라벨 'HV_MASTER_IN'
+[pin_not_connected]: 핀이 연결되지 않았습니다
+    ; Severity: error
+    @(282.57 mm, 144.78 mm): 심볼 J1 [Conn_01x15_Female] 핀 10 [Pin_10, 수동, 선]
+[pin_not_connected]: 핀이 연결되지 않았습니다
+    ; Severity: error
+    @(282.57 mm, 147.32 mm): 심볼 J1 [Conn_01x15_Female] 핀 11 [Pin_11, 수동, 선]
+[pin_not_connected]: 핀이 연결되지 않았습니다
+    ; Severity: error
+    @(282.57 mm, 149.86 mm): 심볼 J1 [Conn_01x15_Female] 핀 12 [Pin_12, 수동, 선]
+[pin_not_connected]: 핀이 연결되지 않았습니다
+    ; Severity: error
+    @(282.57 mm, 152.40 mm): 심볼 J1 [Conn_01x15_Female] 핀 13 [Pin_13, 수동, 선]
+[pin_not_connected]: 핀이 연결되지 않았습니다
+    ; Severity: error
+    @(282.57 mm, 157.48 mm): 심볼 J1 [Conn_01x15_Female] 핀 15 [Pin_15, 수동, 선]
+[pin_not_connected]: 핀이 연결되지 않았습니다
+    ; Severity: error
+    @(282.57 mm, 129.54 mm): 심볼 J1 [Conn_01x15_Female] 핀 4 [Pin_4, 수동, 선]
+[pin_not_connected]: 핀이 연결되지 않았습니다
+    ; Severity: error
+    @(282.57 mm, 132.08 mm): 심볼 J1 [Conn_01x15_Female] 핀 5 [Pin_5, 수동, 선]
+[pin_not_connected]: 핀이 연결되지 않았습니다
+    ; Severity: error
+    @(282.57 mm, 134.62 mm): 심볼 J1 [Conn_01x15_Female] 핀 6 [Pin_6, 수동, 선]
+[pin_not_connected]: 핀이 연결되지 않았습니다
+    ; Severity: error
+    @(282.57 mm, 137.16 mm): 심볼 J1 [Conn_01x15_Female] 핀 7 [Pin_7, 수동, 선]
+[pin_not_connected]: 핀이 연결되지 않았습니다
+    ; Severity: error
+    @(282.57 mm, 154.94 mm): 심볼 J1 [Conn_01x15_Female] 핀 14 [Pin_14, 수동, 선]
+[pin_not_connected]: 핀이 연결되지 않았습니다
+    ; Severity: error
+    @(282.57 mm, 139.70 mm): 심볼 J1 [Conn_01x15_Female] 핀 8 [Pin_8, 수동, 선]
+[pin_not_connected]: 핀이 연결되지 않았습니다
+    ; Severity: error
+    @(282.57 mm, 142.24 mm): 심볼 J1 [Conn_01x15_Female] 핀 9 [Pin_9, 수동, 선]
+[global_label_dangling]: 회로도의 다른 곳에서는 연결되지 않은 전역 라벨
+    ; Severity: warning
+    @(270.51 mm, 152.40 mm): 전역 라벨 'BRAKE_OUT'
+[pin_not_connected]: 핀이 연결되지 않았습니다
+    ; Severity: error
+    @(272.42 mm, 114.94 mm): 심볼 J3 [Conn_01x12_Female] 핀 12 [Pin_12, 수동, 선]
+[global_label_dangling]: 회로도의 다른 곳에서는 연결되지 않은 전역 라벨
+    ; Severity: warning
+    @(270.51 mm, 149.86 mm): 전역 라벨 'BRAKE_IN'
+
+ ** ERC 메시지: 90 오류 32 경고 58

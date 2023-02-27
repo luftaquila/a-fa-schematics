@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'QHL300300S28'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_TESTING_PART_NUMBER", "MOUSER_TESTING_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "XP POWER", "QHL300300S28" (!) = "", "QHL300300S28", "Other", "209-QHL300300S28", "https://www.mouser.co.uk/ProductDetail/XP-Power/QHL300300S28?qs=XeJtXLiO41S1AiIkr8Y80Q%3D%3D", "", "", "", "", "Isolated DC/DC Converters DC-DC 300W 180-425VDC INPUT 1/4 BRICK", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/eb163ed829194035f4784d5866aa88af.pdf", "13.2 mm"
+END_PART
+
+END.

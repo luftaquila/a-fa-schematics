@@ -1,0 +1,21 @@
+.QHL300300S28 :1 ;Isolated DC/DC Converters DC-DC 300W 180-425VDC INPUT 1/4 BRICK
+QHL300300S28
+*STM PS
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=MH1 10=MH2 11=MH3 12=MH4
+*PLB 1="+VIN" 2="REMOTE ON/OFF" 3="-VIN" 4="-VOUT" 5="-SENSE" 6="TRIM" 7="+SENSE" 8="+VOUT" 9="MH1" 10="MH2" 11="MH3" 12="MH4"
+*MXP 12
+*DFN QHL300300S28
+~!Manufacturer_Name (XP POWER)
+~!Manufacturer_Part_Number (QHL300300S28)
+~!Mouser Part Number (209-QHL300300S28)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/XP-Power/QHL300300S28?qs=XeJtXLiO41S1AiIkr8Y80Q%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Mouser Testing Part Number (-)
+~!Mouser Testing Price/Stock (-)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/eb163ed829194035f4784d5866aa88af.pdf)
+~!Height (13.2mm)
+~!3D_Model (QHL300300S28)
+QHL300300S28
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 

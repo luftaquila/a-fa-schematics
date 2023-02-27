@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>G:\공유 드라이브\A-FA E-포뮬러 전기시스템\PCB\Shutdown\shutdown\shutdown.kicad_sch</source>
+    <date>2022-06-29 오후 7:49:52</date>
+    <tool>Eeschema (6.0.2)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>shutdown.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>1N4002</value>
+      <footprint>Library:1N4002</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4001" description="50V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shutdown.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83184391-76ed-44f0-8cd0-01f89f157bdb</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4002</value>
+      <footprint>Library:1N4002</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4001" description="50V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shutdown.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f1beb86-67e1-46bf-8c2b-6d1e1485d5c0</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N4002</value>
+      <footprint>Library:1N4002</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4001" description="50V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shutdown.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee29d712-3378-4507-a00b-003526b29bb1</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N4002</value>
+      <footprint>Library:1N4002</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4001" description="50V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shutdown.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02538207-54a8-4266-8d51-23871852b2ff</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>HV_AUX1</value>
+      <footprint>Connector_Molex:Molex_SPOX_5267-02A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shutdown.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c88c987d-56e5-4b0d-bd06-dcaaeec1a778</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>HV_AUX2</value>
+      <footprint>Connector_Molex:Molex_SPOX_5267-02A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shutdown.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63115a20-8245-4294-9886-d081b9d7fa88</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>HV_AUX3</value>
+      <footprint>Connector_Molex:Molex_SPOX_5267-02A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shutdown.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1462aacf-194b-4fa5-a3fa-db1143e9bf3a</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>BOTS</value>
+      <footprint>Connector_Molex:Molex_SPOX_5267-02A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shutdown.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f930b235-0795-40d4-a164-5c24f87b3942</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>LVMS</value>
+      <footprint>Connector_Molex:Molex_SPOX_5267-02A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shutdown.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd49e07c-0cf8-420b-ad7b-3d4c0a7671bb</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x06_Female</value>
+      <footprint>Connector_Molex:Molex_SPOX_5267-06A_1x06_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shutdown.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d42e223-3241-4ea3-aa5b-a209cd350b1b</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_Molex:Molex_SPOX_5267-04A_1x04_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shutdown.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f06a20e-99b1-4431-af6b-977c3b7be87a</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x06_Female</value>
+      <footprint>Connector_Molex:Molex_SPOX_5267-06A_1x06_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shutdown.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58036bb4-b126-4e2b-8e78-b113e3aea60c</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>HVMS</value>
+      <footprint>Connector_Molex:Molex_SPOX_5267-02A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shutdown.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e57e8f0-a188-454d-8031-0c14c7c0feef</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x06_Female</value>
+      <footprint>Connector_Molex:Molex_SPOX_5267-06A_1x06_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shutdown.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b0b556f-3fe9-45d5-94c8-7719769e41a4</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x02_Female</value>
+      <footprint>Connector_Molex:Molex_SPOX_5267-02A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shutdown.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>097dfcbc-65a9-4289-a34b-c2f3c07a79f3</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>HVD_INTERLOCK</value>
+      <footprint>Connector_Molex:Molex_SPOX_5267-02A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Device" part="Jumper" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shutdown.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd085057-7c0e-463a-982b-968a2dc1f0f8</tstamps>
+    </comp>
+    <comp ref="RELAY_AIR+_ACTIVE1">
+      <value>JQ1-12V-F</value>
+      <footprint>Relay_THT:Relay_StandexMeder_DIP_LowProfile</footprint>
+      <datasheet>https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf</datasheet>
+      <libsource lib="Relay" part="DIPxx-1Axx-12x" description="Standex Meder DIP reed relay, SPST, Closing Contact"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shutdown.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e000728f-e3c5-4fc4-86af-db9ceb3a6542</tstamps>
+    </comp>
+    <comp ref="RELAY_BMS1">
+      <value>ADJ14012</value>
+      <footprint>Library:ADJ14012</footprint>
+      <libsource lib="NewThing" part="ADJ14024" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shutdown.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49fec31e-3712-4229-8142-b191d90a97d0</tstamps>
+    </comp>
+    <comp ref="RELAY_BSPD1">
+      <value>ADJ14012</value>
+      <footprint>Library:ADJ14012</footprint>
+      <libsource lib="NewThing" part="ADJ14024" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shutdown.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e69c64f9-717d-4a97-b3df-80325ec2fa63</tstamps>
+    </comp>
+    <comp ref="RELAY_HVD_INTERLOCK1">
+      <value>JQ1-12V-F</value>
+      <footprint>Relay_THT:Relay_StandexMeder_DIP_LowProfile</footprint>
+      <datasheet>https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf</datasheet>
+      <libsource lib="Relay" part="DIPxx-1Axx-12x" description="Standex Meder DIP reed relay, SPST, Closing Contact"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shutdown.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b54cae5b-c17c-4ed7-b249-2e7d5e83609a</tstamps>
+    </comp>
+    <comp ref="RELAY_IMD1">
+      <value>ADJ14012</value>
+      <footprint>Library:ADJ14012</footprint>
+      <libsource lib="NewThing" part="ADJ14024" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shutdown.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6762c669-2824-49a2-8bd4-3f19091dd75a</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Female">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Jumper">
+      <footprints>
+        <fp>SolderJumper*</fp>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Device_Jumper</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4001">
+      <description>50V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4001</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewThing" part="ADJ14024">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NewThing_ADJ14024</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V" type="input"/>
+        <pin num="2" name="Out" type="input"/>
+        <pin num="4" name="12V" type="input"/>
+        <pin num="6" name="N" type="input"/>
+        <pin num="8" name="L" type="input"/>
+        <pin num="9" name="D" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay" part="DIPxx-1Axx-12x">
+      <description>Standex Meder DIP reed relay, SPST, Closing Contact</description>
+      <docs>https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf</docs>
+      <footprints>
+        <fp>Relay*StandexMeder*DIP*LowProfile*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">DIPxx-1Axx-12x</field>
+        <field name="Footprint">Relay_THT:Relay_StandexMeder_DIP_LowProfile</field>
+        <field name="Datasheet">https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="13" name="" type="passive"/>
+        <pin num="14" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Relay">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Relay.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="AIR+_ACTIVE">
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="RELAY_AIR+_ACTIVE1" pin="1" pintype="passive"/>
+      <node ref="RELAY_AIR+_ACTIVE1" pin="14" pintype="passive"/>
+    </net>
+    <net code="2" name="AIR+_ACTIVE_SIG">
+      <node ref="J8" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="RELAY_AIR+_ACTIVE1" pin="13" pintype="passive"/>
+      <node ref="RELAY_AIR+_ACTIVE1" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="AIR-_ACTIVE">
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J10" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="RELAY_AIR+_ACTIVE1" pin="7" pintype="passive"/>
+      <node ref="RELAY_AIR+_ACTIVE1" pin="8" pintype="passive"/>
+    </net>
+    <net code="4" name="BMS_FAULT">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="RELAY_BMS1" pin="9" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="5" name="BSPD_FAULT">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="RELAY_BSPD1" pin="9" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="6" name="CRITICAL_LED">
+      <node ref="J10" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="RELAY_BMS1" pin="6" pinfunction="N" pintype="input"/>
+      <node ref="RELAY_BSPD1" pin="6" pinfunction="N" pintype="input"/>
+      <node ref="RELAY_IMD1" pin="6" pinfunction="N" pintype="input"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="RELAY_AIR+_ACTIVE1" pin="6" pintype="passive"/>
+      <node ref="RELAY_HVD_INTERLOCK1" pin="6" pintype="passive"/>
+    </net>
+    <net code="8" name="HVD_LED">
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RELAY_HVD_INTERLOCK1" pin="13" pintype="passive"/>
+      <node ref="RELAY_HVD_INTERLOCK1" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="IMD_FAULT">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="RELAY_IMD1" pin="9" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="10" name="LV">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RELAY_BMS1" pin="1" pinfunction="V" pintype="input"/>
+      <node ref="RELAY_BSPD1" pin="1" pinfunction="V" pintype="input"/>
+      <node ref="RELAY_IMD1" pin="1" pinfunction="V" pintype="input"/>
+    </net>
+    <net code="11" name="LV_BATT">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="RELAY_HVD_INTERLOCK1" pin="1" pintype="passive"/>
+      <node ref="RELAY_HVD_INTERLOCK1" pin="14" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(J9-Pad1)">
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="RELAY_BMS1" pin="2" pinfunction="Out" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(RELAY_BMS1-Pad4)">
+      <node ref="RELAY_BMS1" pin="4" pinfunction="12V" pintype="input"/>
+      <node ref="RELAY_IMD1" pin="2" pinfunction="Out" pintype="input"/>
+    </net>
+    <net code="18" name="Net-(RELAY_BSPD1-Pad2)">
+      <node ref="RELAY_BSPD1" pin="2" pinfunction="Out" pintype="input"/>
+      <node ref="RELAY_IMD1" pin="4" pinfunction="12V" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(RELAY_BSPD1-Pad4)">
+      <node ref="RELAY_BSPD1" pin="4" pinfunction="12V" pintype="input"/>
+      <node ref="RELAY_HVD_INTERLOCK1" pin="7" pintype="passive"/>
+      <node ref="RELAY_HVD_INTERLOCK1" pin="8" pintype="passive"/>
+    </net>
+    <net code="20" name="SHUTDOWN_RESET">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J8" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="RELAY_BMS1" pin="8" pinfunction="L" pintype="input"/>
+      <node ref="RELAY_BSPD1" pin="8" pinfunction="L" pintype="input"/>
+      <node ref="RELAY_IMD1" pin="8" pinfunction="L" pintype="input"/>
+    </net>
+  </nets>
+</export>

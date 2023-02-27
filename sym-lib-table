@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "A-FA_PARTS")(type "KiCad")(uri "${KIPRJMOD}/symbols/A-FA_PARTS.kicad_sym")(options "")(descr ""))
+  (lib (name "MODULES")(type "KiCad")(uri "${KIPRJMOD}/symbols/MODULES.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32-WROOM-32D")(type "KiCad")(uri "${KIPRJMOD}/symbols/ESP32-WROOM-32D.kicad_sym")(options "")(descr ""))
+)

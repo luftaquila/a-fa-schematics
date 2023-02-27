@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "G2RL-1_12DC")(type "KiCad")(uri "G:/공유 드라이브/A-FA E-포뮬러 전기시스템/Schematics/PARTS/G2RL-1 12DC/G2RL-1_12DC.kicad_sym")(options "")(descr ""))
+  (lib (name "SPAN02A-12")(type "Legacy")(uri "G:/공유 드라이브/A-FA E-포뮬러 전기시스템/Schematics/PARTS/SPAN02A-12/SPAN02A-12.lib")(options "")(descr ""))
+  (lib (name "2022-06-28_06-44-00")(type "Legacy")(uri "G:/공유 드라이브/A-FA E-포뮬러 전기시스템/PCB/FOOTPRINT/FOOT/ul_JQ1-12V-F/KiCAD/2022-06-28_06-44-00/2022-06-28_06-44-00.lib")(options "")(descr ""))
+)

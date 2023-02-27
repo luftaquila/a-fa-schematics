@@ -1,0 +1,82 @@
+templates:
+  -: &LPT
+    type: LPT02SE-14-19P(072)(LC)
+    subtype: male
+    pincount: 19
+    pins: [A, B, C, D, E, F, G, H, J, K, L, M, N, P, R, S, T, U ,V]
+    hide_disconnected_pins: True
+    image:
+      src: ../image/lpt.png
+      width: 300
+
+  -: &2p
+    type: 2p connector system
+    subtype: male
+    pincount: 2
+    pins: [1, 2]
+
+  -: &INV_J1
+    type: AMPSEAL 776164-1
+    subtype: receptacle
+    pincount: 35
+    pins: [1, 13, 24, 2, 14, 25, 3, 15, 26, 4, 16, 27, 5, 17, 28, 6, 18, 29, 7, 19, 30, 8, 20, 31, 9, 21, 32, 10, 22, 33, 11, 23, 34, 12, 35]
+    pinlabels: [XDCR_PWR, AIN1, AIN2, AGND, XDCR_PWR, AIN3, AIN4, AGND, XDCR_PWR, AOUT, AIN6, RLY6, RTD1, AGND, XDCR_PWR, RTD2, AIN5, RLY5, /PROG_ENA, AGND, DIN1, DIN2, DIN3, DIN4, DIN5, DIN6, DIN7, DIN8, GND, CANA_H, CANA_L, CANB_H, CANB_L, TXD, RXD]
+    hide_disconnected_pins: True
+    image:
+      src: ../image/J1.png
+      width: 300
+
+  -: &INV_J2
+    type: AMPSEAL 770680-1
+    subtype: receptacle
+    pincount: 23
+    pins: [1, 9, 16, 2, 10, 17, 3, 11, 18, 4, 12, 19, 5, 13, 20, 6, 14, 21, 7, 15, 22, 8, 23]
+    pinlabels: [XDCR_PWR, ENCA, ENCB, ENCZ, GND, EXC, GND, SIN, /SIN, COS, /COS, GND, -, -, -, GND, GND, RLY1, RLY2, RLY3, RLY4, BATT+, BATT-]
+    hide_disconnected_pins: True
+    image:
+      src: ../image/J2.png
+      width: 300
+
+  -: &RS232
+    type: RS232
+    subtype: female
+    pincount: 9
+    pins: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    pinlabels: [DCD, RXD, TXD, DTR, GND, DSR, RTS, CTS, RI]
+    hide_disconnected_pins: True
+    image:
+      src: ../image/rs232.png
+      width: 300
+
+  -: &SENSOR_3p
+    subtype: sensor
+    pincount: 3
+    pins: [1, 2, 3]
+    pinlabels: [VCC, SIG, GND]
+
+  -: &SENSOR_2p
+    subtype: sensor
+    pincount: 2
+    pins: [1, 2]
+    pinlabels: [VCC, SIG]
+
+  -: &COOLER
+    subtype: cooler
+    pincount: 2
+    pins: [1, 2]
+
+
+  -: &wire
+    category: bundle
+    gauge: 22 AWG
+    show_equiv: True
+    colors: [RD, BK, WH, GY, GN, BU, VT, BN]
+    # RED, BLACK, WHITE, GREY, GREEN, BLUE, VIOLET, BROWN
+
+  -: &sensorwire_3p
+    <<: *wire
+    colors: [RD, GN, BK]
+
+  -: &sensorwire_2p
+    <<: *wire
+    colors: [RD, GN]

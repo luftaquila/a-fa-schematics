@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>G:\공유 드라이브\A-FA E-포뮬러 전기시스템\PCB\TSAL&amp;DIS\TSAL&amp;DIS.kicad_sch</source>
+    <date>2022-05-06 오후 3:13:05</date>
+    <tool>Eeschema (6.0.2)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>TSAL&amp;DIS.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1nF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TSAL&amp;DIS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc2e9f96-3bed-4896-b995-f56e799f1c77</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TSAL&amp;DIS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83184391-76ed-44f0-8cd0-01f89f157bdb</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>BZV55C12</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BZV55C12" description="12V, 500mW, 5%, Zener diode, MiniMELF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TSAL&amp;DIS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42bd0f96-a831-406e-abb7-03ed1bbd785f</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>BZV55C12</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BZV55C12" description="12V, 500mW, 5%, Zener diode, MiniMELF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TSAL&amp;DIS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fab1abc4-c49d-4b88-8c7f-939d7feb7b6c</tstamps>
+    </comp>
+    <comp ref="PS1">
+      <value>SPAN02A-12</value>
+      <footprint>Library:SPAN02A-12[s.m]</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/DKDS-2/37032.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">SPAN02A-12</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/span02a-12/mean-well-enterprises?region=nac</field>
+        <field name="Description">Isolated DC/DC Converters 9-18Vin 12Vout 167mA SIP8 Reg Iso</field>
+        <field name="Height">11.6</field>
+        <field name="Manufacturer_Name">Mean Well</field>
+        <field name="Manufacturer_Part_Number">SPAN02A-12</field>
+        <field name="Mouser Part Number">709-SPAN02A-12</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/MEAN-WELL/SPAN02A-12?qs=5aG0NVq1C4wxQqKsG84AkQ%3D%3D</field>
+      </fields>
+      <libsource lib="SPAN02A-12" part="SPAN02A-12" description=""/>
+      <property name="Description" value="Isolated DC/DC Converters 9-18Vin 12Vout 167mA SIP8 Reg Iso"/>
+      <property name="Height" value="11.6"/>
+      <property name="Manufacturer_Name" value="Mean Well"/>
+      <property name="Manufacturer_Part_Number" value="SPAN02A-12"/>
+      <property name="Mouser Part Number" value="709-SPAN02A-12"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/MEAN-WELL/SPAN02A-12?qs=5aG0NVq1C4wxQqKsG84AkQ%3D%3D"/>
+      <property name="Arrow Part Number" value="SPAN02A-12"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/span02a-12/mean-well-enterprises?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TSAL&amp;DIS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3335d379-08d8-4469-9fa1-495ed5a43fba</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>IRF640</value>
+      <footprint>Library:IRF640NPBF</footprint>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TSAL&amp;DIS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5dbda758-e74b-4ccf-ad68-495d537d68ba</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>IRF640</value>
+      <footprint>Library:IRF640NPBF</footprint>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TSAL&amp;DIS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dad2f9a9-292b-4f7e-9524-a263f3c1ba74</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>IRF640</value>
+      <footprint>Library:IRF640NPBF</footprint>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TSAL&amp;DIS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f67bbef3-6f59-49ba-8890-d1f9dc9f9ad6</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4.7M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TSAL&amp;DIS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a397f61-35c4-4c18-9dcd-73a2d44cc9af</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>4.7M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TSAL&amp;DIS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2026567f-be64-41dd-8011-b0897ba0ff2e</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>4.7M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TSAL&amp;DIS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bde3f73b-f869-498d-a8d7-18346cb7179e</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>4.7M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TSAL&amp;DIS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5eedf685-0df3-4da8-aded-0e6ed1cb2507</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TSAL&amp;DIS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7582a530-a952-46c1-b7eb-75006524ba29</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>4.7M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TSAL&amp;DIS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cdfb661b-489b-4b76-99f4-62b92bb1ab18</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>4.7M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TSAL&amp;DIS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>122b5574-57fe-4d2d-80bf-3cabd28e7128</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>4.7M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TSAL&amp;DIS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8b15b51-8345-4a1d-8ecf-04fc15b9e450</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>4.7M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TSAL&amp;DIS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7255cbd1-8d38-4545-be9a-7fc5488ef942</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>4.7M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TSAL&amp;DIS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>272c2a78-b5f5-4b61-aed3-ec69e0e92729</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TSAL&amp;DIS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b65c51e-c243-447e-bee9-832d94c1630e</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TSAL&amp;DIS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a10b569c-d672-485d-9c05-2cb4795deeca</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TSAL&amp;DIS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d372e2ac-d81e-48b7-8c55-9bbe58eeffc3</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM311</value>
+      <footprint>Library:LM311P</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/lm311.pdf</datasheet>
+      <libsource lib="Comparator" part="LM311" description="Voltage Comparator, DIP-8/SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TSAL&amp;DIS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ba17a9b-d889-426c-b4fe-048bed6b6be8</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>4N35</value>
+      <footprint>Library:4N35</footprint>
+      <datasheet>https://www.vishay.com/docs/81181/4n35.pdf</datasheet>
+      <libsource lib="Isolator" part="4N35" description="Optocoupler, Phototransistor Output, with Base Connection, Vce 70V, CTR 100%, Viso 5000V, DIP6"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TSAL&amp;DIS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb0bf2a0-d317-42f7-b022-b5e05481f6be</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Comparator" part="LM311">
+      <description>Voltage Comparator, DIP-8/SOIC-8</description>
+      <docs>https://www.st.com/resource/en/datasheet/lm311.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM311</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/lm311.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="+" type="input"/>
+        <pin num="3" name="-" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="BAL" type="input"/>
+        <pin num="6" name="STRB" type="input"/>
+        <pin num="7" name="" type="open_collector"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GDS">
+      <description>N-MOSFET transistor, gate/drain/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GDS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BZV55C12">
+      <description>12V, 500mW, 5%, Zener diode, MiniMELF</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf</docs>
+      <footprints>
+        <fp>D*MiniMELF*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BZV55C12</field>
+        <field name="Footprint">Diode_SMD:D_MiniMELF</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Isolator" part="4N35">
+      <description>Optocoupler, Phototransistor Output, with Base Connection, Vce 70V, CTR 100%, Viso 5000V, DIP6</description>
+      <docs>https://www.vishay.com/docs/81181/4n35.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4N35</field>
+        <field name="Footprint">Package_DIP:DIP-6_W7.62mm</field>
+        <field name="Datasheet">https://www.vishay.com/docs/81181/4n35.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SPAN02A-12" part="SPAN02A-12">
+      <docs>https://datasheet.datasheetarchive.com/originals/distributors/DKDS-2/37032.pdf</docs>
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">SPAN02A-12</field>
+        <field name="Footprint">SPAN02A12</field>
+        <field name="Datasheet">https://datasheet.datasheetarchive.com/originals/distributors/DKDS-2/37032.pdf</field>
+        <field name="Description">Isolated DC/DC Converters 9-18Vin 12Vout 167mA SIP8 Reg Iso</field>
+        <field name="Height">11.6</field>
+        <field name="Manufacturer_Name">Mean Well</field>
+        <field name="Manufacturer_Part_Number">SPAN02A-12</field>
+        <field name="Mouser Part Number">709-SPAN02A-12</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/MEAN-WELL/SPAN02A-12?qs=5aG0NVq1C4wxQqKsG84AkQ%3D%3D</field>
+        <field name="Arrow Part Number">SPAN02A-12</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/span02a-12/mean-well-enterprises?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-VIN" type="passive"/>
+        <pin num="2" name="+VIN" type="passive"/>
+        <pin num="3" name="R.C." type="passive"/>
+        <pin num="5" name="N.C._1" type="passive"/>
+        <pin num="6" name="+VOUT" type="passive"/>
+        <pin num="7" name="-VOUT" type="passive"/>
+        <pin num="8" name="N.C._2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Comparator">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Comparator.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Isolator">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Isolator.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/HV+">
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/HV-">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="PS1" pin="7" pinfunction="-VOUT" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U2" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="/HV_ACTIVE_LIGHT">
+      <node ref="Q3" pin="2" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="4" name="/LV">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="PS1" pin="2" pinfunction="+VIN" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pintype="passive"/>
+    </net>
+    <net code="5" name="/LV_ACTIVE_LIGHT">
+      <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="PS1" pin="1" pinfunction="-VIN" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="PS1" pin="6" pinfunction="+VOUT" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="10" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="BAL" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="STRB" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q2" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pintype="open_collector"/>
+    </net>
+    <net code="19" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="unconnected-(PS1-Pad3)">
+      <node ref="PS1" pin="3" pinfunction="R.C." pintype="passive+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(PS1-Pad5)">
+      <node ref="PS1" pin="5" pinfunction="N.C._1" pintype="passive+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(PS1-Pad8)">
+      <node ref="PS1" pin="8" pinfunction="N.C._2" pintype="passive+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U2-Pad3)">
+      <node ref="U2" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U2-Pad6)">
+      <node ref="U2" pin="6" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
