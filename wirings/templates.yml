@@ -4,7 +4,7 @@ templates:
     subtype: male
     pincount: 19
     pins: [A, B, C, D, E, F, G, H, J, K, L, M, N, P, R, S, T, U ,V]
-    hide_disconnected_pins: True
+    hide_disconnected_pins: False
     image:
       src: ../image/lpt.png
       width: 300

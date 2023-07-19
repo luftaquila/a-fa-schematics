@@ -1,0 +1,34 @@
+Info: Processing symbol 'C1:Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm'.
+Info: Processing symbol 'C2:Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm'.
+Info: Processing symbol 'C3:Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm'.
+Info: Processing symbol 'C4:Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm'.
+Info: Processing symbol 'J1:Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical'.
+Info: Processing symbol 'J2:Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical'.
+Info: Processing symbol 'J3:Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical'.
+Info: Processing symbol 'R1:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal'.
+Info: Processing symbol 'R2:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal'.
+Info: Processing symbol 'R3:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal'.
+Info: Processing symbol 'R4:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal'.
+Info: Processing symbol 'R5:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal'.
+Info: Processing symbol 'R6:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal'.
+Info: Processing symbol 'R7:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal'.
+Info: Processing symbol 'R8:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal'.
+Info: Processing symbol 'R9:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal'.
+Info: Processing symbol 'R10:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal'.
+Info: Processing symbol 'R11:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal'.
+Info: Processing symbol 'R12:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal'.
+Info: Processing symbol 'U1:footprint:AMS1117-5.0'.
+Info: Processing symbol 'U2:footprint:AMS1117-5.0'.
+Info: Processing symbol 'U3:footprint:LM311P'.
+Info: Processing symbol 'U4:footprint:LM311P'.
+Info: Processing symbol 'U5:footprint:LM311P'.
+Info: Processing symbol 'U6:footprint:LM311P'.
+Changed C1 footprint from 'Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm' to 'Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm'.
+Changed C2 footprint from 'Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm' to 'Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm'.
+Changed C3 footprint from 'Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm' to 'Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm'.
+Changed C4 footprint from 'Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm' to 'Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm'.
+Warning: No net found for symbol U1 pin 4.
+Warning: No net found for symbol U2 pin 4.
+
+
+Info: Total warnings: 0, errors: 0.

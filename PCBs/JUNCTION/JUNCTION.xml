@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>G:\Shared drives\A-FA E-포뮬러 전기시스템\회로 및 PCB\PCBs\JUNCTION\JUNCTION.kicad_sch</source>
+    <date>2023-07-09 오후 3:49:55</date>
+    <tool>Eeschema (6.0.8)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>JUNCTION.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>JUNC</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <libsource lib="11" part="Conn_01x06_Female" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: JUNCTION.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a84207ad-8fe9-4071-a33d-513f25096a4b</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>TSMP</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical</footprint>
+      <libsource lib="A-FA_PARTS" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: JUNCTION.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9cfcfb7a-439f-4c22-a451-d1e675531624</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>HV</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical</footprint>
+      <libsource lib="A-FA_PARTS" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: JUNCTION.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f00a7d73-588c-49fa-b8e0-b52b185d78d1</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>HVD_IN</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="A-FA_PARTS" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: JUNCTION.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>adc59f37-dd65-4562-829c-021b8f8c24ee</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>HALL</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="11" part="Conn_01x03_Female" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: JUNCTION.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47c540e7-3ec1-4588-a9ab-42b53ddd5efc</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>ENERGYMETER</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="A-FA_PARTS" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: JUNCTION.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>683f4176-7a4b-4891-9155-0d79666ebacb</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>R_DISCHARGE</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="11" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: JUNCTION.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9cf25dfd-c37b-4cad-b8ee-d1e84098b796</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0922_L20.0mm_D9.0mm_P30.48mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: JUNCTION.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f47fb342-20b5-4dd9-9e53-fe1d8eb49edb</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0922_L20.0mm_D9.0mm_P30.48mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: JUNCTION.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a8cce3e-42d1-4616-ab3f-7ebc12ea71a7</tstamps>
+    </comp>
+    <comp ref="RELAY_DISCHARGE1">
+      <value>G2RL-1_12DC</value>
+      <footprint>footprint:G2RL112DC</footprint>
+      <datasheet>http://uk.rs-online.com/web/p/products/3650490P</datasheet>
+      <fields>
+        <field name="Description">General Purpose Relay, G2RL Series, Power, Non Latching, SPDT, 12 VDC, 12 A RoHS Compliant: Yes</field>
+        <field name="Height">15.7</field>
+        <field name="Manufacturer_Name">Omron Electronics</field>
+        <field name="Manufacturer_Part_Number">G2RL-1 12DC</field>
+      </fields>
+      <libsource lib="G2RL-1_12DC" part="G2RL-1_12DC" description="General Purpose Relay, G2RL Series, Power, Non Latching, SPDT, 12 VDC, 12 A RoHS Compliant: Yes"/>
+      <property name="Description" value="General Purpose Relay, G2RL Series, Power, Non Latching, SPDT, 12 VDC, 12 A RoHS Compliant: Yes"/>
+      <property name="Height" value="15.7"/>
+      <property name="Manufacturer_Name" value="Omron Electronics"/>
+      <property name="Manufacturer_Part_Number" value="G2RL-1 12DC"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: JUNCTION.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8569ba5-a11b-47c7-9018-4fcba6b9b3c8</tstamps>
+    </comp>
+    <comp ref="R_DIS_place_in_pcb1">
+      <value>1k</value>
+      <footprint>footprint:HSC100</footprint>
+      <libsource lib="Device" part="Heater" description="Resistive heater"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: JUNCTION.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4ea3c0f-a25a-4e47-a4ae-4144d29a704b</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>AMS1117-5.0</value>
+      <footprint>footprint:AMS1117-5.0</footprint>
+      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="AMS1117-5.0" description="1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: JUNCTION.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c17fedee-ceb0-4f44-97fa-4142958ce9ce</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="11" part="Conn_01x01_Female">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="" name="" type="input"/>
+        <pin num="1" name="Pin_1" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="11" part="Conn_01x03_Female">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Female</field>
+      </fields>
+      <pins>
+        <pin num="" name="" type="input"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="11" part="Conn_01x06_Female">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Female</field>
+      </fields>
+      <pins>
+        <pin num="" name="" type="input"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="A-FA_PARTS" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="" name="" type="input"/>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Heater">
+      <description>Resistive heater</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">Heater</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="G2RL-1_12DC" part="G2RL-1_12DC">
+      <description>General Purpose Relay, G2RL Series, Power, Non Latching, SPDT, 12 VDC, 12 A RoHS Compliant: Yes</description>
+      <docs>http://uk.rs-online.com/web/p/products/3650490P</docs>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">G2RL-1_12DC</field>
+        <field name="Footprint">G2RL112DC</field>
+        <field name="Datasheet">http://uk.rs-online.com/web/p/products/3650490P</field>
+        <field name="Description">General Purpose Relay, G2RL Series, Power, Non Latching, SPDT, 12 VDC, 12 A RoHS Compliant: Yes</field>
+        <field name="Height">15.7</field>
+        <field name="Manufacturer_Name">Omron Electronics</field>
+        <field name="Manufacturer_Part_Number">G2RL-1 12DC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COIL_1" type="passive"/>
+        <pin num="2" name="NC" type="passive"/>
+        <pin num="3" name="NO" type="passive"/>
+        <pin num="4" name="COM" type="passive"/>
+        <pin num="5" name="COIL_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AMS1117-5.0">
+      <description>1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223</description>
+      <docs>http://www.advanced-monolithic.com/pdf/ds1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMS1117-5.0</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.advanced-monolithic.com/pdf/ds1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="5V_{HALL}">
+      <node ref="J5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="2" name="HALL_SIG">
+      <node ref="J1" pin="5" pintype="passive"/>
+      <node ref="J5" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="HV+">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="RELAY_DISCHARGE1" pin="2" pinfunction="NC" pintype="passive"/>
+    </net>
+    <net code="4" name="HV-">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="bidirectional"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="HVD1">
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="6" name="HVD2">
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="7" name="LV_{JNC}+">
+      <node ref="J1" pin="3" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="RELAY_DISCHARGE1" pin="1" pinfunction="COIL_1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="8" name="LV_{JNC}-">
+      <node ref="J1" pin="4" pintype="passive"/>
+      <node ref="J5" pin="3" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="RELAY_DISCHARGE1" pin="5" pinfunction="COIL_2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="9" name="Net-(RELAY_DISCHARGE1-Pad4)">
+      <node ref="RELAY_DISCHARGE1" pin="4" pinfunction="COM" pintype="passive"/>
+      <node ref="R_DIS_place_in_pcb1" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="TSMP+">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="TSMP-">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="unconnected-(J1-Pad)">
+      <node ref="J1" pin="" pintype="input"/>
+    </net>
+    <net code="13" name="unconnected-(J1-Pad)_1">
+      <node ref="J1" pin="" pintype="input"/>
+    </net>
+    <net code="14" name="unconnected-(J1-Pad)_2">
+      <node ref="J1" pin="" pintype="input"/>
+    </net>
+    <net code="15" name="unconnected-(J1-Pad)_3">
+      <node ref="J1" pin="" pintype="input"/>
+    </net>
+    <net code="16" name="unconnected-(J1-Pad)_4">
+      <node ref="J1" pin="" pintype="input"/>
+    </net>
+    <net code="17" name="unconnected-(J1-Pad)_5">
+      <node ref="J1" pin="" pintype="input"/>
+    </net>
+    <net code="18" name="unconnected-(J1-Pad6)">
+      <node ref="J1" pin="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(J2-Pad)">
+      <node ref="J2" pin="" pintype="input"/>
+    </net>
+    <net code="20" name="unconnected-(J2-Pad)_1">
+      <node ref="J2" pin="" pintype="input"/>
+    </net>
+    <net code="21" name="unconnected-(J3-Pad)">
+      <node ref="J3" pin="" pintype="input"/>
+    </net>
+    <net code="22" name="unconnected-(J3-Pad)_1">
+      <node ref="J3" pin="" pintype="input"/>
+    </net>
+    <net code="23" name="unconnected-(J4-Pad)">
+      <node ref="J4" pin="" pintype="input"/>
+    </net>
+    <net code="24" name="unconnected-(J4-Pad)_1">
+      <node ref="J4" pin="" pintype="input"/>
+    </net>
+    <net code="25" name="unconnected-(J5-Pad)">
+      <node ref="J5" pin="" pintype="input"/>
+    </net>
+    <net code="26" name="unconnected-(J5-Pad)_1">
+      <node ref="J5" pin="" pintype="input"/>
+    </net>
+    <net code="27" name="unconnected-(J5-Pad)_2">
+      <node ref="J5" pin="" pintype="input"/>
+    </net>
+    <net code="28" name="unconnected-(J6-Pad)">
+      <node ref="J6" pin="" pintype="input"/>
+    </net>
+    <net code="29" name="unconnected-(J6-Pad)_1">
+      <node ref="J6" pin="" pintype="input"/>
+    </net>
+    <net code="30" name="unconnected-(J7-Pad)">
+      <node ref="J7" pin="" pintype="input"/>
+    </net>
+    <net code="31" name="unconnected-(RELAY_DISCHARGE1-Pad3)">
+      <node ref="RELAY_DISCHARGE1" pin="3" pinfunction="NO" pintype="passive+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(R_DIS_place_in_pcb1-Pad1)">
+      <node ref="R_DIS_place_in_pcb1" pin="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

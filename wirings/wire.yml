@@ -1,3 +1,6 @@
+##########################################################
+#                       CONNECTORS                       #
+##########################################################
 connectors:
   ######################## LV PCB ########################
 
@@ -11,11 +14,7 @@ connectors:
 
   LV PCB 1-C:
     <<: *LPT
-    pinlabels: [LV_MASTER1, LV_MASTER2, -, HV_MASTER1, HV_MASTER2, -, RESET1, RESET2, -, CAN_H_LOGGER, CAN_L_LOGGER]
-
-  LV PCB 1-D:
-    <<: *LPT
-    pinlabels: [LV+, LV-, -, BOTS1, BOTS2, -, HV_AUX_L1, HV_AUX_L2, -, HV_AUX_R1, HV_AUX_R2]
+    pinlabels: [LV_MASTER1, LV_MASTER2, -, HV_MASTER1, HV_MASTER2, -, RESET1, RESET2, CAN_H_LOGGER, CAN_L_LOGGER]
 
   LV PCB 1-E:
     <<: *LPT
@@ -23,30 +22,30 @@ connectors:
 
   LV PCB 1-F:
     <<: *LPT
-    pinlabels: [LV_JNC+, LV_JNC-, HALL_SIG, HVD1, HVD2, -, SPK_L+, SPK_L-, SPK_R+, SPK_R-, -, BRAKE_LIGHT+, BRAKE_LIGHT-, BRAKE_PWR, BRAKE_SIG, BRAKE_GND, BRAKE_SW1, BRAKE_SW2]
+    pinlabels: [LV_JNC+, LV_JNC-, HALL_SIG, HVD1, HVD2, -, BRAKE_LIGHT+, BRAKE_LIGHT-, BRAKE_PWR, BRAKE_SIG, BRAKE_GND, BRAKE_SW1, BRAKE_SW2, BOTS1, -, -, BOTS2, LV_BATT+, LV_BATT-]
 
   LV PCB 1-G:
     <<: *LPT
-    pinlabels: [CAN_H_DEBUG, CAN_L_DEBUG, CAN_GND_DEBUG, -, RS232_DEBUG_TX, RS232_DEBUG_RX, RS232_DEBUG_GND]
+    pinlabels: [CAN_H_DEBUG, CAN_L_DEBUG, CAN_GND_DEBUG, -, -, RS232_DEBUG_RX, -, -, -, -, -, -, -, -, -, RS232_DEBUG_GND, RS232_DEBUG_TX]
 
   LV PCB 1-H:
     <<: *LPT
-    pinlabels: [DIST_FL_PWR, DIST_FL_SIG, DIST_FL_GND, -, SPD_FL_PWR, SPD_FL_SIG, SPD_FL_GND, -, DIST_RL_PWR, DIST_RL_SIG, DIST_RL_GND, -, SPD_RL_PWR, SPD_RL_SIG, SPD_RL_GND]
+    pinlabels: [DIST_FL_PWR, DIST_FL_SIG, DIST_FL_GND, -, SPD_FL_PWR, SPD_FL_SIG, -, DIST_RL_PWR, DIST_RL_SIG, DIST_RL_GND, -, SPD_RL_PWR, SPD_RL_SIG, -, SPK_L+, SPK_L-, -, HV_AUX_L1, HV_AUX_L2]
 
   LV PCB 1-I:
     <<: *LPT
-    pinlabels: [DIST_FR_PWR, DIST_FR_SIG, DIST_FR_GND, -, SPD_FR_PWR, SPD_FR_SIG, SPD_FR_GND, -, DIST_RR_PWR, DIST_RR_SIG, DIST_RR_GND, -, SPD_RR_PWR, SPD_RR_SIG, SPD_RR_GND]
+    pinlabels: [DIST_FR_PWR, DIST_FR_SIG, DIST_FR_GND, -, SPD_FR_PWR, SPD_FR_SIG, -, DIST_RR_PWR, DIST_RR_SIG, DIST_RR_GND, -, SPD_RR_PWR, SPD_RR_SIG, -, SPK_R+, SPK_R-, -, HV_AUX_R1, HV_AUX_R2]
 
 
   ######################## HV BATT ########################
 
   HV BATT 3-A:
     <<: *LPT
-    pinlabels: [LV_PACK+, LV_PACK-, AIR+, AIR-, -, BMS_FAULT, IMD_FAULT, ON_COOLING, ON_PUMP, ON_RAD_FAN, ON_BATT_FAN, CAN_H_BMS, CAN_L_BMS, PRECHARGE_DRIVE, -, CHARGE_POWER, CHARGER_SAFETY, CHARGER_INTERLOCK1, CHARGER_INTERLOCK2]
+    pinlabels: [LV_PACK+, LV_PACK-, AIR+, AIR-, BMS_FAULT, IMD_FAULT, -, ON_COOLING, ON_PUMP, ON_RAD_FAN, ON_BATT_FAN, CAN_H_BMS, CAN_L_BMS, PRECHARGE_DRIVE, -, CHARGE_POWER, CHARGER_SAFETY, CHARGER_INTERLOCK1, CHARGER_INTERLOCK2]
 
   HV BATT 3-B:
     <<: *LPT
-    pinlabels: [LV_TSAL+, TSAL_RED, TSAL_GREEN, -, LV_PUMP+, LV_PUMP-, -, LV_FAN_L+, LV_FAN_L-, -, LV_FAN_R+, LV_FAN_R-]
+    pinlabels: [LV_TSAL+, LV_PUMP+, LV_PUMP-, -, LV_FAN_L+, LV_FAN_L-, -, LV_FAN_R+, LV_FAN_R-, -, TSAL_GREEN, TSAL_RED]
 
 
   ######################## INVERTER ########################
@@ -66,7 +65,7 @@ connectors:
 
   JUNCTION 5-B:
     <<: *LPT
-    pinlabels: [LV_JNC+, LV_JNC-, -, HALL_SIG, -, HVD1, HVD2]
+    pinlabels: [LV_JNC+, LV_JNC-, -, HALL_SIG, -, HVD1, HVD2, -, -, -, -, -, -, -, -, -, -, LV_BATT+, LV_BATT-]
 
 
   ####################### DASHBOARD ########################
@@ -84,15 +83,17 @@ connectors:
 
   CONTROL BOX 7-B:
     <<: *LPT
-    pinlabels: [CHASSIS, -, LV_MASTER1, LV_MASTER2, -, HV_MASTER1, HV_MASTER2, -, RESET1, RESET2, -, CAN_H_LOGGER, CAN_L_LOGGER]
+    pinlabels: [LV_MASTER1, LV_MASTER2, -, HV_MASTER1, HV_MASTER2, -, RESET1, RESET2, CAN_H_LOGGER, CAN_L_LOGGER, -, -, -, -, -, -, -, -, CHASSIS]
 
 
   ##################### CHARGE SHUTDOWN ####################
 
-  CHARGE SHUTDOWN:
+  CHARGE SHUTDOWN A:
     <<: *LPT
-    pinlabels: [LV_PACK+, LV_PACK-, -, CHARGE_POWER, CHARGER_SAFETY, -, IMD_FAULT, -, AIR+, AIR-, -, CHARGER_INTERLOCK1, CHARGER_INTERLOCK2]
+    pinlabels: [-, -, AIR-, -, -, -, -, CHARGE_POWER, LV_PACK-, LV_PACK+, CHARGER_INTERLOCK1, CHARGER_INTERLOCK2, CHARGER_SAFETY, AIR+, -, -, -, IMD_FAULT, -]
 
+  CHARGE SHUTDOWN B:
+    <<: *RS232
 
   ####################### DEBUG PORTS ######################
 
@@ -104,9 +105,6 @@ connectors:
 
 
   ####################### POWER LINES ######################
-  LV BATT:
-    <<: *2p
-    pinlabels: [LV+, LV-]
 
   BOTS:
     subtype: component
@@ -179,7 +177,6 @@ connectors:
   RPS REAR:
     <<: *SENSOR_3p
 
-
   DIST FL:
     <<: *SENSOR_3p
 
@@ -204,31 +201,42 @@ connectors:
   SPD RR:
     <<: *SENSOR_2p
 
-
+##########################################################
+#                         CABLES                         #
+##########################################################
 cables:
   LV PCB ↔ HV BATT:
     <<: *wire
+    gauge: 0
     colors: [RD, BK, RD, BK, GN, BU, VT, GY, VT, BN, WH, BK]
 
   CHARGE SHUTDOWN ↔ HV BATT:
     <<: *wire
+    gauge: 0
     colors: [RD, BK, RD, GN, BU, RD, BK, WH, WH]
+
+  CHARGE DEBUG CAN ↔ HV BATT:
+    <<: *wire
+    colors: [WH, BK]
 
   HV BATT ↔ TSAL:
     <<: *wire
-    colors: [WH, RD, GN]
+    colors: [VT, RD, GN]
 
   HV BATT ↔ PUMP:
     <<: *wire
+    gauge: 18 AWG
     colors: [RD, BK]
 
   HV BATT ↔ FAN L:
     <<: *wire
-    colors: [RD, BK]
+    gauge: 18 AWG
+    colors: [YE, GN]
 
   HV BATT ↔ FAN R:
     <<: *wire
-    colors: [RD, BK]
+    gauge: 18 AWG
+    colors: [YE, GN]
 
   INVERTER J1 ↔ LV PCB:
     <<: *wire
@@ -256,15 +264,16 @@ cables:
 
   LV PCB ↔ JUNCTION:
     <<: *wire
-    colors: [RD, BK, GN, WH, WH]
+    gauge: 0
+    colors: [RD, BK, GN, WH, WH, RD, BK]
 
   LV PCB ↔ SPK L:
     <<: *wire
-    colors: [VT, BN]
+    colors: [VT, GY]
 
   LV PCB ↔ SPK R:
     <<: *wire
-    colors: [VT, BN]
+    colors: [VT, GY]
 
   LV PCB ↔ BRAKE LIGHT:
     <<: *wire
@@ -272,11 +281,12 @@ cables:
 
   LV PCB ↔ BRAKE SWITCH:
     <<: *wire
-    colors: [WH, WH]
+    colors: [WH, VT]
 
   LV PCB ↔ DASHBOARD:
     <<: *wire
-    colors: [BK, GN, BU, VT, BN, BN, WH, GN, VT, GY, BU, BN, VT, RD, WH, GY]
+    gauge: 0
+    colors: [BK, GN, BU, VT, BK, BK, WH, GN, VT, GY, BU, BN, VT, RD, WH, GY]
 
   LV PCB ↔ DEBUG SERIAL:
     <<: *wire
@@ -286,21 +296,20 @@ cables:
     <<: *wire
     colors: [GY, WH, BK]
 
-  LV PCB ↔ LV BATT:
-    <<: *wire
-    colors: [RD, BK]
-
   LV PCB ↔ BOTS:
     <<: *wire
-    colors: [GY, GY]
+    gauge: 18 AWG
+    colors: [RD, RD]
 
   LV PCB ↔ HV AUX L:
     <<: *wire
-    colors: [VT, VT]
+    gauge: 18 AWG
+    colors: [RD, RD]
 
   LV PCB ↔ HV AUX R:
     <<: *wire
-    colors: [BN, BN]
+    gauge: 18 AWG
+    colors: [RD, RD]
 
   JUNCTION ↔ CONTROL BOX:
     <<: *wire
@@ -308,20 +317,25 @@ cables:
 
   CONTROL BOX ↔ LV PCB:
     <<: *wire
-    colors: [GN, GN, VT, VT, BN, BN, WH, BK]
+    gauge: 0
+    colors: [BK, BK, RD, RD, BN, BN, WH, BK]
 
   CONTROL BOX ↔ CHASSIS:
     <<: *wire
+    gauge: 18 AWG
     colors: [BK]
 
   INVERTER J1 ↔ MOTOR:
     <<: *sensorwire_3p
+    colors: [RD, BN, BN]
 
   INVERTER J1 ↔ APPS:
     <<: *sensorwire_3p
+    colors: [RD, GN, GY]
 
   INVERTER J1 ↔ RPS FRONT:
     <<: *sensorwire_3p
+    colors: [RD, GN, GY]
 
   LV PCB ↔ RPS REAR:
     <<: *sensorwire_3p
@@ -329,36 +343,47 @@ cables:
 
   LV PCB ↔ DIST FL:
     <<: *sensorwire_3p
+    colors: [RD, GN, GY]
 
   LV PCB ↔ DIST RL:
     <<: *sensorwire_3p
+    colors: [RD, GN, GY]
 
   LV PCB ↔ SPD FL:
     <<: *sensorwire_2p
+    colors: [RD, BK]
 
   LV PCB ↔ SPD RL:
     <<: *sensorwire_2p
+    colors: [RD, BK]
 
   LV PCB ↔ DIST FR:
     <<: *sensorwire_3p
+    colors: [RD, GN, GY]
 
   LV PCB ↔ DIST RR:
     <<: *sensorwire_3p
+    colors: [RD, GN, GY]
 
   LV PCB ↔ SPD FR:
     <<: *sensorwire_2p
+    colors: [RD, BK]
 
   LV PCB ↔ SPD RR:
     <<: *sensorwire_2p
+    colors: [RD, BK]
 
 
+##########################################################
+#                       CONNECTIONS                      #
+##########################################################
 connections:
   ######################## INVERTER ########################
 
   - # INVERTER J1 ↔ MOTOR
     - INVERTER J1: [26, AIN2, 17]
     - INVERTER J1 ↔ MOTOR: [1-3]
-    - MOTOR: [TH1, TH2, TH2]
+    - MOTOR: [TH1, TH1, TH2]
 
   - # INVERTER J2 ↔ MOTOR
     - INVERTER J2: [EXC, 3, SIN, /SIN, COS, /COS]
@@ -399,9 +424,14 @@ connections:
     - HV BATT 3-A: [LV_PACK+, LV_PACK-, AIR+, AIR-, BMS_FAULT, IMD_FAULT, ON_COOLING, ON_PUMP, ON_RAD_FAN, ON_BATT_FAN, CAN_H_BMS, CAN_L_BMS]
 
   - # CHARGE SHUTDOWN ↔ HV BATT
-    - CHARGE SHUTDOWN: [LV_PACK+, LV_PACK-, CHARGE_POWER, CHARGER_SAFETY, IMD_FAULT, AIR+, AIR-, CHARGER_INTERLOCK1, CHARGER_INTERLOCK2]
+    - CHARGE SHUTDOWN A: [LV_PACK+, LV_PACK-, CHARGE_POWER, CHARGER_SAFETY, IMD_FAULT, AIR+, AIR-, CHARGER_INTERLOCK1, CHARGER_INTERLOCK2]
     - CHARGE SHUTDOWN ↔ HV BATT: [1-9]
     - HV BATT 3-A: [LV_PACK+, LV_PACK-, CHARGE_POWER, CHARGER_SAFETY, IMD_FAULT, AIR+, AIR-, CHARGER_INTERLOCK1, CHARGER_INTERLOCK2]
+
+  - # CHARGE DEBUG CAN ↔ HV BATT
+    - CHARGE SHUTDOWN B: [3, 5]
+    - CHARGE DEBUG CAN ↔ HV BATT: [1-2]
+    - HV BATT 3-A: [CAN_H_BMS, CAN_L_BMS]
 
   - # HV BATT ↔ TSAL
     - HV BATT 3-B: [LV_TSAL+, TSAL_RED, TSAL_GREEN]
@@ -427,19 +457,9 @@ connections:
   ######################## LV PCB ########################
 
   - # LV PCB ↔ JUNCTION
-    - LV PCB 1-F: [LV_JNC+, LV_JNC-, HALL_SIG, HVD1, HVD2]
-    - LV PCB ↔ JUNCTION: [1-5]
-    - JUNCTION 5-B: [LV_JNC+, LV_JNC-, HALL_SIG, HVD1, HVD2]
-
-  - # LV PCB ↔ SPK L
-    - LV PCB 1-F: [SPK_L+, SPK_L-]
-    - LV PCB ↔ SPK L: [1-2]
-    - SPK L: [SPK_L+, SPK_L-]
-
-  - # LV PCB ↔ SPK R
-    - LV PCB 1-F: [SPK_R+, SPK_R-]
-    - LV PCB ↔ SPK R: [1-2]
-    - SPK R: [SPK_R+, SPK_R-]
+    - LV PCB 1-F: [LV_JNC+, LV_JNC-, HALL_SIG, HVD1, HVD2, LV_BATT+, LV_BATT-]
+    - LV PCB ↔ JUNCTION: [1-7]
+    - JUNCTION 5-B: [LV_JNC+, LV_JNC-, HALL_SIG, HVD1, HVD2, LV_BATT+, LV_BATT-]
 
   - # LV PCB ↔ BRAKE LIGHT
     - LV PCB 1-F: [BRAKE_LIGHT+, BRAKE_LIGHT-]
@@ -471,26 +491,21 @@ connections:
     - LV PCB ↔ DEBUG CAN: [1-3]
     - DEBUG CAN: [1, 3, 5]
 
-  - # LV PCB ↔ LV BATT
-    - LV PCB 1-D: [LV+, LV-]
-    - LV PCB ↔ LV BATT: [1-2]
-    - LV BATT: [LV+, LV-]
-
   - # LV PCB ↔ BOTS
-    - LV PCB 1-D: [BOTS1, BOTS2]
+    - LV PCB 1-F: [BOTS1, BOTS2]
     - LV PCB ↔ BOTS: [1-2]
     - BOTS: [BOTS1, BOTS2]
 
+
   - # LV PCB ↔ HV AUX L
-    - LV PCB 1-D: [HV_AUX_L1, HV_AUX_L2]
+    - LV PCB 1-H: [HV_AUX_L1, HV_AUX_L2]
     - LV PCB ↔ HV AUX L: [1-2]
     - HV AUX L: [HV_AUX_L1, HV_AUX_L2]
 
-  - # LV PCB ↔ HV AUX R
-    - LV PCB 1-D: [HV_AUX_R1, HV_AUX_R2]
-    - LV PCB ↔ HV AUX R: [1-2]
-    - HV AUX R: [HV_AUX_R1, HV_AUX_R2]
-
+  - # LV PCB ↔ SPK L
+    - LV PCB 1-H: [SPK_L+, SPK_L-]
+    - LV PCB ↔ SPK L: [1-2]
+    - SPK L: [SPK_L+, SPK_L-]
 
   - # LV PCB ↔ DIST FL
     - LV PCB 1-H: [DIST_FL_PWR, DIST_FL_SIG, DIST_FL_GND]
@@ -511,6 +526,17 @@ connections:
     - LV PCB 1-H: [SPD_RL_PWR, SPD_RL_SIG]
     - LV PCB ↔ SPD RL: [1-2]
     - SPD RL: [VCC, SIG]
+
+
+  - # LV PCB ↔ HV AUX R
+    - LV PCB 1-I: [HV_AUX_R1, HV_AUX_R2]
+    - LV PCB ↔ HV AUX R: [1-2]
+    - HV AUX R: [HV_AUX_R1, HV_AUX_R2]
+
+  - # LV PCB ↔ SPK R
+    - LV PCB 1-I: [SPK_R+, SPK_R-]
+    - LV PCB ↔ SPK R: [1-2]
+    - SPK R: [SPK_R+, SPK_R-]
 
   - # LV PCB ↔ DIST FR
     - LV PCB 1-I: [DIST_FR_PWR, DIST_FR_SIG, DIST_FR_GND]

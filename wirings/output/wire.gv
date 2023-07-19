@@ -29,6 +29,10 @@ graph {
     <td port="p2r">B</td>
    </tr>
    <tr>
+    <td>-</td>
+    <td port="p3r">C</td>
+   </tr>
+   <tr>
     <td>AIR+</td>
     <td port="p4r">D</td>
    </tr>
@@ -37,12 +41,20 @@ graph {
     <td port="p5r">E</td>
    </tr>
    <tr>
+    <td>-</td>
+    <td port="p6r">F</td>
+   </tr>
+   <tr>
     <td>BMS_FAULT</td>
     <td port="p7r">G</td>
    </tr>
    <tr>
     <td>IMD_FAULT</td>
     <td port="p8r">H</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p9r">J</td>
    </tr>
    <tr>
     <td>ON_COOLING</td>
@@ -61,12 +73,25 @@ graph {
     <td port="p13r">N</td>
    </tr>
    <tr>
+    <td>-</td>
+    <td port="p14r">P</td>
+   </tr>
+   <tr>
     <td>CAN_H_BMS</td>
     <td port="p15r">R</td>
    </tr>
    <tr>
     <td>CAN_L_BMS</td>
     <td port="p16r">S</td>
+   </tr>
+   <tr>
+    <td port="p17r">T</td>
+   </tr>
+   <tr>
+    <td port="p18r">U</td>
+   </tr>
+   <tr>
+    <td port="p19r">V</td>
    </tr>
   </table>
  </td></tr>
@@ -114,6 +139,10 @@ graph {
     <td>\PROG_ENA</td>
    </tr>
    <tr>
+    <td port="p5l">E</td>
+    <td>-</td>
+   </tr>
+   <tr>
     <td port="p6l">F</td>
     <td>CAN_H_INV</td>
    </tr>
@@ -130,8 +159,16 @@ graph {
     <td>RS232_RX</td>
    </tr>
    <tr>
+    <td port="p10l">K</td>
+    <td>-</td>
+   </tr>
+   <tr>
     <td port="p11l">L</td>
     <td>GND_INV</td>
+   </tr>
+   <tr>
+    <td port="p12l">M</td>
+    <td>-</td>
    </tr>
    <tr>
     <td port="p13l">N</td>
@@ -144,6 +181,18 @@ graph {
    <tr>
     <td port="p15l">R</td>
     <td>LV_INV-</td>
+   </tr>
+   <tr>
+    <td port="p16l">S</td>
+   </tr>
+   <tr>
+    <td port="p17l">T</td>
+   </tr>
+   <tr>
+    <td port="p18l">U</td>
+   </tr>
+   <tr>
+    <td port="p19l">V</td>
    </tr>
   </table>
  </td></tr>
@@ -183,12 +232,20 @@ graph {
     <td>LV_MASTER2</td>
    </tr>
    <tr>
+    <td port="p3l">C</td>
+    <td>-</td>
+   </tr>
+   <tr>
     <td port="p4l">D</td>
     <td>HV_MASTER1</td>
    </tr>
    <tr>
     <td port="p5l">E</td>
     <td>HV_MASTER2</td>
+   </tr>
+   <tr>
+    <td port="p6l">F</td>
+    <td>-</td>
    </tr>
    <tr>
     <td port="p7l">G</td>
@@ -199,73 +256,39 @@ graph {
     <td>RESET2</td>
    </tr>
    <tr>
-    <td port="p10l">K</td>
+    <td port="p9l">J</td>
     <td>CAN_H_LOGGER</td>
    </tr>
    <tr>
-    <td port="p11l">L</td>
+    <td port="p10l">K</td>
     <td>CAN_L_LOGGER</td>
    </tr>
-  </table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">
-    <table border="0" cellspacing="0" cellborder="0"><tr>
-     <td width="300" height="192.65536723163842" fixedsize="true"><img scale="true" src="../image/lpt.png"/></td>
-    </tr></table>
-   </td>
-  </tr></table>
- </td></tr>
-</table>
-> fillcolor="#FFFFFF" shape=box style=filled]
-	"LV PCB 1-D" [label=<
-<table border="0" cellspacing="0" cellpadding="0">
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">LV PCB 1-D</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">LPT02SE-14-19P(072)(LC)</td>
-   <td balign="left">male</td>
-   <td balign="left">19-pin</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
    <tr>
-    <td>LV+</td>
-    <td port="p1r">A</td>
+    <td port="p11l">L</td>
    </tr>
    <tr>
-    <td>LV-</td>
-    <td port="p2r">B</td>
+    <td port="p12l">M</td>
    </tr>
    <tr>
-    <td>BOTS1</td>
-    <td port="p4r">D</td>
+    <td port="p13l">N</td>
    </tr>
    <tr>
-    <td>BOTS2</td>
-    <td port="p5r">E</td>
+    <td port="p14l">P</td>
    </tr>
    <tr>
-    <td>HV_AUX_L1</td>
-    <td port="p7r">G</td>
+    <td port="p15l">R</td>
    </tr>
    <tr>
-    <td>HV_AUX_L2</td>
-    <td port="p8r">H</td>
+    <td port="p16l">S</td>
    </tr>
    <tr>
-    <td>HV_AUX_R1</td>
-    <td port="p10r">K</td>
+    <td port="p17l">T</td>
    </tr>
    <tr>
-    <td>HV_AUX_R2</td>
-    <td port="p11r">L</td>
+    <td port="p18l">U</td>
+   </tr>
+   <tr>
+    <td port="p19l">V</td>
    </tr>
   </table>
  </td></tr>
@@ -313,6 +336,10 @@ graph {
     <td port="p4r">D</td>
    </tr>
    <tr>
+    <td>-</td>
+    <td port="p5r">E</td>
+   </tr>
+   <tr>
     <td>HV_AUX_C1</td>
     <td port="p6r">F</td>
    </tr>
@@ -327,6 +354,10 @@ graph {
    <tr>
     <td>RTD_LED</td>
     <td port="p9r">J</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p10r">K</td>
    </tr>
    <tr>
     <td>SW_COOLING</td>
@@ -347,6 +378,10 @@ graph {
    <tr>
     <td>SW_RTD_EN</td>
     <td port="p15r">R</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p16r">S</td>
    </tr>
    <tr>
     <td>LCD_5V</td>
@@ -410,48 +445,60 @@ graph {
     <td port="p5r">E</td>
    </tr>
    <tr>
-    <td>SPK_L+</td>
-    <td port="p7r">G</td>
-   </tr>
-   <tr>
-    <td>SPK_L-</td>
-    <td port="p8r">H</td>
-   </tr>
-   <tr>
-    <td>SPK_R+</td>
-    <td port="p9r">J</td>
-   </tr>
-   <tr>
-    <td>SPK_R-</td>
-    <td port="p10r">K</td>
+    <td>-</td>
+    <td port="p6r">F</td>
    </tr>
    <tr>
     <td>BRAKE_LIGHT+</td>
-    <td port="p12r">M</td>
+    <td port="p7r">G</td>
    </tr>
    <tr>
     <td>BRAKE_LIGHT-</td>
-    <td port="p13r">N</td>
+    <td port="p8r">H</td>
    </tr>
    <tr>
     <td>BRAKE_PWR</td>
-    <td port="p14r">P</td>
+    <td port="p9r">J</td>
    </tr>
    <tr>
     <td>BRAKE_SIG</td>
-    <td port="p15r">R</td>
+    <td port="p10r">K</td>
    </tr>
    <tr>
     <td>BRAKE_GND</td>
-    <td port="p16r">S</td>
+    <td port="p11r">L</td>
    </tr>
    <tr>
     <td>BRAKE_SW1</td>
-    <td port="p17r">T</td>
+    <td port="p12r">M</td>
    </tr>
    <tr>
     <td>BRAKE_SW2</td>
+    <td port="p13r">N</td>
+   </tr>
+   <tr>
+    <td>BOTS1</td>
+    <td port="p14r">P</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p15r">R</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p16r">S</td>
+   </tr>
+   <tr>
+    <td>BOTS2</td>
+    <td port="p17r">T</td>
+   </tr>
+   <tr>
+    <td>LV_BATT+</td>
     <td port="p18r">U</td>
+   </tr>
+   <tr>
+    <td>LV_BATT-</td>
+    <td port="p19r">V</td>
    </tr>
   </table>
  </td></tr>
@@ -495,7 +542,11 @@ graph {
     <td port="p3r">C</td>
    </tr>
    <tr>
-    <td>RS232_DEBUG_TX</td>
+    <td>-</td>
+    <td port="p4r">D</td>
+   </tr>
+   <tr>
+    <td>-</td>
     <td port="p5r">E</td>
    </tr>
    <tr>
@@ -503,8 +554,54 @@ graph {
     <td port="p6r">F</td>
    </tr>
    <tr>
-    <td>RS232_DEBUG_GND</td>
+    <td>-</td>
     <td port="p7r">G</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p8r">H</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p9r">J</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p10r">K</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p11r">L</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p12r">M</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p13r">N</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p14r">P</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p15r">R</td>
+   </tr>
+   <tr>
+    <td>RS232_DEBUG_GND</td>
+    <td port="p16r">S</td>
+   </tr>
+   <tr>
+    <td>RS232_DEBUG_TX</td>
+    <td port="p17r">T</td>
+   </tr>
+   <tr>
+    <td port="p18r">U</td>
+   </tr>
+   <tr>
+    <td port="p19r">V</td>
    </tr>
   </table>
  </td></tr>
@@ -548,6 +645,10 @@ graph {
     <td port="p3r">C</td>
    </tr>
    <tr>
+    <td>-</td>
+    <td port="p4r">D</td>
+   </tr>
+   <tr>
     <td>SPD_FL_PWR</td>
     <td port="p5r">E</td>
    </tr>
@@ -556,24 +657,56 @@ graph {
     <td port="p6r">F</td>
    </tr>
    <tr>
+    <td>-</td>
+    <td port="p7r">G</td>
+   </tr>
+   <tr>
     <td>DIST_RL_PWR</td>
-    <td port="p9r">J</td>
+    <td port="p8r">H</td>
    </tr>
    <tr>
     <td>DIST_RL_SIG</td>
-    <td port="p10r">K</td>
+    <td port="p9r">J</td>
    </tr>
    <tr>
     <td>DIST_RL_GND</td>
+    <td port="p10r">K</td>
+   </tr>
+   <tr>
+    <td>-</td>
     <td port="p11r">L</td>
    </tr>
    <tr>
     <td>SPD_RL_PWR</td>
-    <td port="p13r">N</td>
+    <td port="p12r">M</td>
    </tr>
    <tr>
     <td>SPD_RL_SIG</td>
+    <td port="p13r">N</td>
+   </tr>
+   <tr>
+    <td>-</td>
     <td port="p14r">P</td>
+   </tr>
+   <tr>
+    <td>SPK_L+</td>
+    <td port="p15r">R</td>
+   </tr>
+   <tr>
+    <td>SPK_L-</td>
+    <td port="p16r">S</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p17r">T</td>
+   </tr>
+   <tr>
+    <td>HV_AUX_L1</td>
+    <td port="p18r">U</td>
+   </tr>
+   <tr>
+    <td>HV_AUX_L2</td>
+    <td port="p19r">V</td>
    </tr>
   </table>
  </td></tr>
@@ -617,6 +750,10 @@ graph {
     <td port="p3r">C</td>
    </tr>
    <tr>
+    <td>-</td>
+    <td port="p4r">D</td>
+   </tr>
+   <tr>
     <td>SPD_FR_PWR</td>
     <td port="p5r">E</td>
    </tr>
@@ -625,24 +762,56 @@ graph {
     <td port="p6r">F</td>
    </tr>
    <tr>
+    <td>-</td>
+    <td port="p7r">G</td>
+   </tr>
+   <tr>
     <td>DIST_RR_PWR</td>
-    <td port="p9r">J</td>
+    <td port="p8r">H</td>
    </tr>
    <tr>
     <td>DIST_RR_SIG</td>
-    <td port="p10r">K</td>
+    <td port="p9r">J</td>
    </tr>
    <tr>
     <td>DIST_RR_GND</td>
+    <td port="p10r">K</td>
+   </tr>
+   <tr>
+    <td>-</td>
     <td port="p11r">L</td>
    </tr>
    <tr>
     <td>SPD_RR_PWR</td>
-    <td port="p13r">N</td>
+    <td port="p12r">M</td>
    </tr>
    <tr>
     <td>SPD_RR_SIG</td>
+    <td port="p13r">N</td>
+   </tr>
+   <tr>
+    <td>-</td>
     <td port="p14r">P</td>
+   </tr>
+   <tr>
+    <td>SPK_R+</td>
+    <td port="p15r">R</td>
+   </tr>
+   <tr>
+    <td>SPK_R-</td>
+    <td port="p16r">S</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p17r">T</td>
+   </tr>
+   <tr>
+    <td>HV_AUX_R1</td>
+    <td port="p18r">U</td>
+   </tr>
+   <tr>
+    <td>HV_AUX_R2</td>
+    <td port="p19r">V</td>
    </tr>
   </table>
  </td></tr>
@@ -690,12 +859,16 @@ graph {
     <td>AIR-</td>
    </tr>
    <tr>
-    <td port="p6l">F</td>
+    <td port="p5l">E</td>
     <td>BMS_FAULT</td>
    </tr>
    <tr>
-    <td port="p7l">G</td>
+    <td port="p6l">F</td>
     <td>IMD_FAULT</td>
+   </tr>
+   <tr>
+    <td port="p7l">G</td>
+    <td>-</td>
    </tr>
    <tr>
     <td port="p8l">H</td>
@@ -724,6 +897,10 @@ graph {
    <tr>
     <td port="p14l">P</td>
     <td>PRECHARGE_DRIVE</td>
+   </tr>
+   <tr>
+    <td port="p15l">R</td>
+    <td>-</td>
    </tr>
    <tr>
     <td port="p16l">S</td>
@@ -775,36 +952,69 @@ graph {
     <td port="p1r">A</td>
    </tr>
    <tr>
-    <td>TSAL_RED</td>
+    <td>LV_PUMP+</td>
     <td port="p2r">B</td>
    </tr>
    <tr>
-    <td>TSAL_GREEN</td>
+    <td>LV_PUMP-</td>
     <td port="p3r">C</td>
    </tr>
    <tr>
-    <td>LV_PUMP+</td>
-    <td port="p5r">E</td>
-   </tr>
-   <tr>
-    <td>LV_PUMP-</td>
-    <td port="p6r">F</td>
+    <td>-</td>
+    <td port="p4r">D</td>
    </tr>
    <tr>
     <td>LV_FAN_L+</td>
-    <td port="p8r">H</td>
+    <td port="p5r">E</td>
    </tr>
    <tr>
     <td>LV_FAN_L-</td>
-    <td port="p9r">J</td>
+    <td port="p6r">F</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p7r">G</td>
    </tr>
    <tr>
     <td>LV_FAN_R+</td>
-    <td port="p11r">L</td>
+    <td port="p8r">H</td>
    </tr>
    <tr>
     <td>LV_FAN_R-</td>
+    <td port="p9r">J</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p10r">K</td>
+   </tr>
+   <tr>
+    <td>TSAL_GREEN</td>
+    <td port="p11r">L</td>
+   </tr>
+   <tr>
+    <td>TSAL_RED</td>
     <td port="p12r">M</td>
+   </tr>
+   <tr>
+    <td port="p13r">N</td>
+   </tr>
+   <tr>
+    <td port="p14r">P</td>
+   </tr>
+   <tr>
+    <td port="p15r">R</td>
+   </tr>
+   <tr>
+    <td port="p16r">S</td>
+   </tr>
+   <tr>
+    <td port="p17r">T</td>
+   </tr>
+   <tr>
+    <td port="p18r">U</td>
+   </tr>
+   <tr>
+    <td port="p19r">V</td>
    </tr>
   </table>
  </td></tr>
@@ -1054,8 +1264,16 @@ graph {
     <td>LV_JNC-</td>
    </tr>
    <tr>
+    <td port="p3l">C</td>
+    <td>-</td>
+   </tr>
+   <tr>
     <td port="p4l">D</td>
     <td>HALL_SIG</td>
+   </tr>
+   <tr>
+    <td port="p5l">E</td>
+    <td>-</td>
    </tr>
    <tr>
     <td port="p6l">F</td>
@@ -1064,6 +1282,54 @@ graph {
    <tr>
     <td port="p7l">G</td>
     <td>HVD2</td>
+   </tr>
+   <tr>
+    <td port="p8l">H</td>
+    <td>-</td>
+   </tr>
+   <tr>
+    <td port="p9l">J</td>
+    <td>-</td>
+   </tr>
+   <tr>
+    <td port="p10l">K</td>
+    <td>-</td>
+   </tr>
+   <tr>
+    <td port="p11l">L</td>
+    <td>-</td>
+   </tr>
+   <tr>
+    <td port="p12l">M</td>
+    <td>-</td>
+   </tr>
+   <tr>
+    <td port="p13l">N</td>
+    <td>-</td>
+   </tr>
+   <tr>
+    <td port="p14l">P</td>
+    <td>-</td>
+   </tr>
+   <tr>
+    <td port="p15l">R</td>
+    <td>-</td>
+   </tr>
+   <tr>
+    <td port="p16l">S</td>
+    <td>-</td>
+   </tr>
+   <tr>
+    <td port="p17l">T</td>
+    <td>-</td>
+   </tr>
+   <tr>
+    <td port="p18l">U</td>
+    <td>LV_BATT+</td>
+   </tr>
+   <tr>
+    <td port="p19l">V</td>
+    <td>LV_BATT-</td>
    </tr>
   </table>
  </td></tr>
@@ -1111,6 +1377,10 @@ graph {
     <td>LATCH_BSPD</td>
    </tr>
    <tr>
+    <td port="p5l">E</td>
+    <td>-</td>
+   </tr>
+   <tr>
     <td port="p6l">F</td>
     <td>HV_AUX_C1</td>
    </tr>
@@ -1125,6 +1395,10 @@ graph {
    <tr>
     <td port="p9l">J</td>
     <td>RTD_LED</td>
+   </tr>
+   <tr>
+    <td port="p10l">K</td>
+    <td>-</td>
    </tr>
    <tr>
     <td port="p11l">L</td>
@@ -1145,6 +1419,10 @@ graph {
    <tr>
     <td port="p15l">R</td>
     <td>SW_RTD_EN</td>
+   </tr>
+   <tr>
+    <td port="p16l">S</td>
+    <td>-</td>
    </tr>
    <tr>
     <td port="p17l">T</td>
@@ -1216,40 +1494,80 @@ graph {
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
    <tr>
-    <td>CHASSIS</td>
+    <td>LV_MASTER1</td>
     <td port="p1r">A</td>
    </tr>
    <tr>
-    <td>LV_MASTER1</td>
+    <td>LV_MASTER2</td>
+    <td port="p2r">B</td>
+   </tr>
+   <tr>
+    <td>-</td>
     <td port="p3r">C</td>
    </tr>
    <tr>
-    <td>LV_MASTER2</td>
+    <td>HV_MASTER1</td>
     <td port="p4r">D</td>
    </tr>
    <tr>
-    <td>HV_MASTER1</td>
+    <td>HV_MASTER2</td>
+    <td port="p5r">E</td>
+   </tr>
+   <tr>
+    <td>-</td>
     <td port="p6r">F</td>
    </tr>
    <tr>
-    <td>HV_MASTER2</td>
+    <td>RESET1</td>
     <td port="p7r">G</td>
    </tr>
    <tr>
-    <td>RESET1</td>
-    <td port="p9r">J</td>
-   </tr>
-   <tr>
     <td>RESET2</td>
-    <td port="p10r">K</td>
+    <td port="p8r">H</td>
    </tr>
    <tr>
     <td>CAN_H_LOGGER</td>
-    <td port="p12r">M</td>
+    <td port="p9r">J</td>
    </tr>
    <tr>
     <td>CAN_L_LOGGER</td>
+    <td port="p10r">K</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p11r">L</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p12r">M</td>
+   </tr>
+   <tr>
+    <td>-</td>
     <td port="p13r">N</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p14r">P</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p15r">R</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p16r">S</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p17r">T</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p18r">U</td>
+   </tr>
+   <tr>
+    <td>CHASSIS</td>
+    <td port="p19r">V</td>
    </tr>
   </table>
  </td></tr>
@@ -1264,11 +1582,11 @@ graph {
  </td></tr>
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
-	"CHARGE SHUTDOWN" [label=<
+	"CHARGE SHUTDOWN A" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">CHARGE SHUTDOWN</td>
+   <td balign="left">CHARGE SHUTDOWN A</td>
   </tr></table>
  </td></tr>
  <tr><td>
@@ -1281,40 +1599,80 @@ graph {
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
    <tr>
-    <td>LV_PACK+</td>
+    <td>-</td>
     <td port="p1r">A</td>
    </tr>
    <tr>
-    <td>LV_PACK-</td>
+    <td>-</td>
     <td port="p2r">B</td>
    </tr>
    <tr>
-    <td>CHARGE_POWER</td>
+    <td>AIR-</td>
+    <td port="p3r">C</td>
+   </tr>
+   <tr>
+    <td>-</td>
     <td port="p4r">D</td>
    </tr>
    <tr>
-    <td>CHARGER_SAFETY</td>
+    <td>-</td>
     <td port="p5r">E</td>
    </tr>
    <tr>
-    <td>IMD_FAULT</td>
+    <td>-</td>
+    <td port="p6r">F</td>
+   </tr>
+   <tr>
+    <td>-</td>
     <td port="p7r">G</td>
    </tr>
    <tr>
-    <td>AIR+</td>
+    <td>CHARGE_POWER</td>
+    <td port="p8r">H</td>
+   </tr>
+   <tr>
+    <td>LV_PACK-</td>
     <td port="p9r">J</td>
    </tr>
    <tr>
-    <td>AIR-</td>
+    <td>LV_PACK+</td>
     <td port="p10r">K</td>
    </tr>
    <tr>
     <td>CHARGER_INTERLOCK1</td>
-    <td port="p12r">M</td>
+    <td port="p11r">L</td>
    </tr>
    <tr>
     <td>CHARGER_INTERLOCK2</td>
+    <td port="p12r">M</td>
+   </tr>
+   <tr>
+    <td>CHARGER_SAFETY</td>
     <td port="p13r">N</td>
+   </tr>
+   <tr>
+    <td>AIR+</td>
+    <td port="p14r">P</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p15r">R</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p16r">S</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p17r">T</td>
+   </tr>
+   <tr>
+    <td>IMD_FAULT</td>
+    <td port="p18r">U</td>
+   </tr>
+   <tr>
+    <td>-</td>
+    <td port="p19r">V</td>
    </tr>
   </table>
  </td></tr>
@@ -1323,6 +1681,43 @@ graph {
    <td balign="left">
     <table border="0" cellspacing="0" cellborder="0"><tr>
      <td width="300" height="192.65536723163842" fixedsize="true"><img scale="true" src="../image/lpt.png"/></td>
+    </tr></table>
+   </td>
+  </tr></table>
+ </td></tr>
+</table>
+> fillcolor="#FFFFFF" shape=box style=filled]
+	"CHARGE SHUTDOWN B" [label=<
+<table border="0" cellspacing="0" cellpadding="0">
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">CHARGE SHUTDOWN B</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">RS232</td>
+   <td balign="left">female</td>
+   <td balign="left">9-pin</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
+   <tr>
+    <td>TXD</td>
+    <td port="p3r">3</td>
+   </tr>
+   <tr>
+    <td>GND</td>
+    <td port="p5r">5</td>
+   </tr>
+  </table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">
+    <table border="0" cellspacing="0" cellborder="0"><tr>
+     <td width="300" height="212.43063263041066" fixedsize="true"><img scale="true" src="../image/rs232.png"/></td>
     </tr></table>
    </td>
   </tr></table>
@@ -1408,34 +1803,6 @@ graph {
     </tr></table>
    </td>
   </tr></table>
- </td></tr>
-</table>
-> fillcolor="#FFFFFF" shape=box style=filled]
-	"LV BATT" [label=<
-<table border="0" cellspacing="0" cellpadding="0">
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">LV BATT</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">2p connector system</td>
-   <td balign="left">male</td>
-   <td balign="left">2-pin</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
-   <tr>
-    <td port="p1l">1</td>
-    <td>LV+</td>
-   </tr>
-   <tr>
-    <td port="p2l">2</td>
-    <td>LV-</td>
-   </tr>
-  </table>
  </td></tr>
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
@@ -2177,10 +2544,10 @@ graph {
 	"LV PCB ↔ HV BATT":w4:e -- "HV BATT 3-A":p4l:w
 	edge [color="#000000:#00ff00:#000000"]
 	"LV PCB 1-A":p7r:e -- "LV PCB ↔ HV BATT":w5:w
-	"LV PCB ↔ HV BATT":w5:e -- "HV BATT 3-A":p6l:w
+	"LV PCB ↔ HV BATT":w5:e -- "HV BATT 3-A":p5l:w
 	edge [color="#000000:#0066ff:#000000"]
 	"LV PCB 1-A":p8r:e -- "LV PCB ↔ HV BATT":w6:w
-	"LV PCB ↔ HV BATT":w6:e -- "HV BATT 3-A":p7l:w
+	"LV PCB ↔ HV BATT":w6:e -- "HV BATT 3-A":p6l:w
 	edge [color="#000000:#8000ff:#000000"]
 	"LV PCB 1-A":p10r:e -- "LV PCB ↔ HV BATT":w7:w
 	"LV PCB ↔ HV BATT":w7:e -- "HV BATT 3-A":p8l:w
@@ -2209,7 +2576,6 @@ graph {
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
    <td balign="left">12x</td>
-   <td balign="left">22 AWG (0.34 mm²)</td>
   </tr></table>
  </td></tr>
  <tr><td>
@@ -2284,7 +2650,7 @@ graph {
     <td>
      GREEN
     </td>
-    <td>HV BATT 3-A:F:BMS_FAULT</td>
+    <td>HV BATT 3-A:E:BMS_FAULT</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w5" height="6">
@@ -2300,7 +2666,7 @@ graph {
     <td>
      BLUE
     </td>
-    <td>HV BATT 3-A:G:IMD_FAULT</td>
+    <td>HV BATT 3-A:F:IMD_FAULT</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w6" height="6">
@@ -2413,31 +2779,31 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style="filled,dashed"]
 	edge [color="#000000:#ff0000:#000000"]
-	"CHARGE SHUTDOWN":p1r:e -- "CHARGE SHUTDOWN ↔ HV BATT":w1:w
+	"CHARGE SHUTDOWN A":p10r:e -- "CHARGE SHUTDOWN ↔ HV BATT":w1:w
 	"CHARGE SHUTDOWN ↔ HV BATT":w1:e -- "HV BATT 3-A":p1l:w
 	edge [color="#000000:#000000:#000000"]
-	"CHARGE SHUTDOWN":p2r:e -- "CHARGE SHUTDOWN ↔ HV BATT":w2:w
+	"CHARGE SHUTDOWN A":p9r:e -- "CHARGE SHUTDOWN ↔ HV BATT":w2:w
 	"CHARGE SHUTDOWN ↔ HV BATT":w2:e -- "HV BATT 3-A":p2l:w
 	edge [color="#000000:#ff0000:#000000"]
-	"CHARGE SHUTDOWN":p4r:e -- "CHARGE SHUTDOWN ↔ HV BATT":w3:w
+	"CHARGE SHUTDOWN A":p8r:e -- "CHARGE SHUTDOWN ↔ HV BATT":w3:w
 	"CHARGE SHUTDOWN ↔ HV BATT":w3:e -- "HV BATT 3-A":p16l:w
 	edge [color="#000000:#00ff00:#000000"]
-	"CHARGE SHUTDOWN":p5r:e -- "CHARGE SHUTDOWN ↔ HV BATT":w4:w
+	"CHARGE SHUTDOWN A":p13r:e -- "CHARGE SHUTDOWN ↔ HV BATT":w4:w
 	"CHARGE SHUTDOWN ↔ HV BATT":w4:e -- "HV BATT 3-A":p17l:w
 	edge [color="#000000:#0066ff:#000000"]
-	"CHARGE SHUTDOWN":p7r:e -- "CHARGE SHUTDOWN ↔ HV BATT":w5:w
-	"CHARGE SHUTDOWN ↔ HV BATT":w5:e -- "HV BATT 3-A":p7l:w
+	"CHARGE SHUTDOWN A":p18r:e -- "CHARGE SHUTDOWN ↔ HV BATT":w5:w
+	"CHARGE SHUTDOWN ↔ HV BATT":w5:e -- "HV BATT 3-A":p6l:w
 	edge [color="#000000:#ff0000:#000000"]
-	"CHARGE SHUTDOWN":p9r:e -- "CHARGE SHUTDOWN ↔ HV BATT":w6:w
+	"CHARGE SHUTDOWN A":p14r:e -- "CHARGE SHUTDOWN ↔ HV BATT":w6:w
 	"CHARGE SHUTDOWN ↔ HV BATT":w6:e -- "HV BATT 3-A":p3l:w
 	edge [color="#000000:#000000:#000000"]
-	"CHARGE SHUTDOWN":p10r:e -- "CHARGE SHUTDOWN ↔ HV BATT":w7:w
+	"CHARGE SHUTDOWN A":p3r:e -- "CHARGE SHUTDOWN ↔ HV BATT":w7:w
 	"CHARGE SHUTDOWN ↔ HV BATT":w7:e -- "HV BATT 3-A":p4l:w
 	edge [color="#000000:#ffffff:#000000"]
-	"CHARGE SHUTDOWN":p12r:e -- "CHARGE SHUTDOWN ↔ HV BATT":w8:w
+	"CHARGE SHUTDOWN A":p11r:e -- "CHARGE SHUTDOWN ↔ HV BATT":w8:w
 	"CHARGE SHUTDOWN ↔ HV BATT":w8:e -- "HV BATT 3-A":p18l:w
 	edge [color="#000000:#ffffff:#000000"]
-	"CHARGE SHUTDOWN":p13r:e -- "CHARGE SHUTDOWN ↔ HV BATT":w9:w
+	"CHARGE SHUTDOWN A":p12r:e -- "CHARGE SHUTDOWN ↔ HV BATT":w9:w
 	"CHARGE SHUTDOWN ↔ HV BATT":w9:e -- "HV BATT 3-A":p19l:w
 	"CHARGE SHUTDOWN ↔ HV BATT" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -2449,14 +2815,13 @@ graph {
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
    <td balign="left">9x</td>
-   <td balign="left">22 AWG (0.34 mm²)</td>
   </tr></table>
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>CHARGE SHUTDOWN:A:LV_PACK+</td>
+    <td>CHARGE SHUTDOWN A:K:LV_PACK+</td>
     <td>
      RED
     </td>
@@ -2472,7 +2837,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>CHARGE SHUTDOWN:B:LV_PACK-</td>
+    <td>CHARGE SHUTDOWN A:J:LV_PACK-</td>
     <td>
      BLACK
     </td>
@@ -2488,7 +2853,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>CHARGE SHUTDOWN:D:CHARGE_POWER</td>
+    <td>CHARGE SHUTDOWN A:H:CHARGE_POWER</td>
     <td>
      RED
     </td>
@@ -2504,7 +2869,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>CHARGE SHUTDOWN:E:CHARGER_SAFETY</td>
+    <td>CHARGE SHUTDOWN A:N:CHARGER_SAFETY</td>
     <td>
      GREEN
     </td>
@@ -2520,11 +2885,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>CHARGE SHUTDOWN:G:IMD_FAULT</td>
+    <td>CHARGE SHUTDOWN A:U:IMD_FAULT</td>
     <td>
      BLUE
     </td>
-    <td>HV BATT 3-A:G:IMD_FAULT</td>
+    <td>HV BATT 3-A:F:IMD_FAULT</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w5" height="6">
@@ -2536,7 +2901,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>CHARGE SHUTDOWN:J:AIR+</td>
+    <td>CHARGE SHUTDOWN A:P:AIR+</td>
     <td>
      RED
     </td>
@@ -2552,7 +2917,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>CHARGE SHUTDOWN:K:AIR-</td>
+    <td>CHARGE SHUTDOWN A:C:AIR-</td>
     <td>
      BLACK
     </td>
@@ -2568,7 +2933,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>CHARGE SHUTDOWN:M:CHARGER_INTERLOCK1</td>
+    <td>CHARGE SHUTDOWN A:L:CHARGER_INTERLOCK1</td>
     <td>
      WHITE
     </td>
@@ -2584,7 +2949,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>CHARGE SHUTDOWN:N:CHARGER_INTERLOCK2</td>
+    <td>CHARGE SHUTDOWN A:M:CHARGER_INTERLOCK2</td>
     <td>
      WHITE
     </td>
@@ -2605,13 +2970,72 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style="filled,dashed"]
 	edge [color="#000000:#ffffff:#000000"]
+	"CHARGE SHUTDOWN B":p3r:e -- "CHARGE DEBUG CAN ↔ HV BATT":w1:w
+	"CHARGE DEBUG CAN ↔ HV BATT":w1:e -- "HV BATT 3-A":p12l:w
+	edge [color="#000000:#000000:#000000"]
+	"CHARGE SHUTDOWN B":p5r:e -- "CHARGE DEBUG CAN ↔ HV BATT":w2:w
+	"CHARGE DEBUG CAN ↔ HV BATT":w2:e -- "HV BATT 3-A":p13l:w
+	"CHARGE DEBUG CAN ↔ HV BATT" [label=<
+<table border="0" cellspacing="0" cellpadding="0">
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">CHARGE DEBUG CAN ↔ HV BATT</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">2x</td>
+   <td balign="left">22 AWG (0.34 mm²)</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellborder="0">
+   <tr><td>&nbsp;</td></tr>
+   <tr>
+    <td>CHARGE SHUTDOWN B:3:TXD</td>
+    <td>
+     WHITE
+    </td>
+    <td>HV BATT 3-A:M:CAN_H_BMS</td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>CHARGE SHUTDOWN B:5:GND</td>
+    <td>
+     BLACK
+    </td>
+    <td>HV BATT 3-A:N:CAN_L_BMS</td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr><td>&nbsp;</td></tr>
+  </table>
+ </td></tr>
+</table>
+> fillcolor="#FFFFFF" shape=box style="filled,dashed"]
+	edge [color="#000000:#8000ff:#000000"]
 	"HV BATT 3-B":p1r:e -- "HV BATT ↔ TSAL":w1:w
 	"HV BATT ↔ TSAL":w1:e -- TSAL:p1l:w
 	edge [color="#000000:#ff0000:#000000"]
-	"HV BATT 3-B":p2r:e -- "HV BATT ↔ TSAL":w2:w
+	"HV BATT 3-B":p12r:e -- "HV BATT ↔ TSAL":w2:w
 	"HV BATT ↔ TSAL":w2:e -- TSAL:p2l:w
 	edge [color="#000000:#00ff00:#000000"]
-	"HV BATT 3-B":p3r:e -- "HV BATT ↔ TSAL":w3:w
+	"HV BATT 3-B":p11r:e -- "HV BATT ↔ TSAL":w3:w
 	"HV BATT ↔ TSAL":w3:e -- TSAL:p3l:w
 	"HV BATT ↔ TSAL" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -2632,7 +3056,7 @@ graph {
    <tr>
     <td>HV BATT 3-B:A:LV_TSAL+</td>
     <td>
-     WHITE
+     VIOLET
     </td>
     <td>TSAL:TSAL_POWER</td>
    </tr>
@@ -2640,13 +3064,13 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#8000ff" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
    </tr>
    <tr>
-    <td>HV BATT 3-B:B:TSAL_RED</td>
+    <td>HV BATT 3-B:M:TSAL_RED</td>
     <td>
      RED
     </td>
@@ -2662,7 +3086,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>HV BATT 3-B:C:TSAL_GREEN</td>
+    <td>HV BATT 3-B:L:TSAL_GREEN</td>
     <td>
      GREEN
     </td>
@@ -2683,10 +3107,10 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style="filled,dashed"]
 	edge [color="#000000:#ff0000:#000000"]
-	"HV BATT 3-B":p5r:e -- "HV BATT ↔ PUMP":w1:w
+	"HV BATT 3-B":p2r:e -- "HV BATT ↔ PUMP":w1:w
 	"HV BATT ↔ PUMP":w1:e -- PUMP:p1l:w
 	edge [color="#000000:#000000:#000000"]
-	"HV BATT 3-B":p6r:e -- "HV BATT ↔ PUMP":w2:w
+	"HV BATT 3-B":p3r:e -- "HV BATT ↔ PUMP":w2:w
 	"HV BATT ↔ PUMP":w2:e -- PUMP:p2l:w
 	"HV BATT ↔ PUMP" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -2698,14 +3122,14 @@ graph {
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
    <td balign="left">2x</td>
-   <td balign="left">22 AWG (0.34 mm²)</td>
+   <td balign="left">18 AWG (1 mm²)</td>
   </tr></table>
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>HV BATT 3-B:E:LV_PUMP+</td>
+    <td>HV BATT 3-B:B:LV_PUMP+</td>
     <td>
      RED
     </td>
@@ -2721,7 +3145,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>HV BATT 3-B:F:LV_PUMP-</td>
+    <td>HV BATT 3-B:C:LV_PUMP-</td>
     <td>
      BLACK
     </td>
@@ -2741,11 +3165,11 @@ graph {
  </td></tr>
 </table>
 > fillcolor="#FFFFFF" shape=box style="filled,dashed"]
-	edge [color="#000000:#ff0000:#000000"]
-	"HV BATT 3-B":p8r:e -- "HV BATT ↔ FAN L":w1:w
+	edge [color="#000000:#ffff00:#000000"]
+	"HV BATT 3-B":p5r:e -- "HV BATT ↔ FAN L":w1:w
 	"HV BATT ↔ FAN L":w1:e -- "FAN L":p1l:w
-	edge [color="#000000:#000000:#000000"]
-	"HV BATT 3-B":p9r:e -- "HV BATT ↔ FAN L":w2:w
+	edge [color="#000000:#00ff00:#000000"]
+	"HV BATT 3-B":p6r:e -- "HV BATT ↔ FAN L":w2:w
 	"HV BATT ↔ FAN L":w2:e -- "FAN L":p2l:w
 	"HV BATT ↔ FAN L" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -2757,16 +3181,16 @@ graph {
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
    <td balign="left">2x</td>
-   <td balign="left">22 AWG (0.34 mm²)</td>
+   <td balign="left">18 AWG (1 mm²)</td>
   </tr></table>
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>HV BATT 3-B:H:LV_FAN_L+</td>
+    <td>HV BATT 3-B:E:LV_FAN_L+</td>
     <td>
-     RED
+     YELLOW
     </td>
     <td>FAN L:LV_FAN_L+</td>
    </tr>
@@ -2774,15 +3198,15 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffff00" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
    </tr>
    <tr>
-    <td>HV BATT 3-B:J:LV_FAN_L-</td>
+    <td>HV BATT 3-B:F:LV_FAN_L-</td>
     <td>
-     BLACK
+     GREEN
     </td>
     <td>FAN L:LV_FAN_L-</td>
    </tr>
@@ -2790,7 +3214,7 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#00ff00" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -2800,11 +3224,11 @@ graph {
  </td></tr>
 </table>
 > fillcolor="#FFFFFF" shape=box style="filled,dashed"]
-	edge [color="#000000:#ff0000:#000000"]
-	"HV BATT 3-B":p11r:e -- "HV BATT ↔ FAN R":w1:w
+	edge [color="#000000:#ffff00:#000000"]
+	"HV BATT 3-B":p8r:e -- "HV BATT ↔ FAN R":w1:w
 	"HV BATT ↔ FAN R":w1:e -- "FAN R":p1l:w
-	edge [color="#000000:#000000:#000000"]
-	"HV BATT 3-B":p12r:e -- "HV BATT ↔ FAN R":w2:w
+	edge [color="#000000:#00ff00:#000000"]
+	"HV BATT 3-B":p9r:e -- "HV BATT ↔ FAN R":w2:w
 	"HV BATT ↔ FAN R":w2:e -- "FAN R":p2l:w
 	"HV BATT ↔ FAN R" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -2816,16 +3240,16 @@ graph {
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
    <td balign="left">2x</td>
-   <td balign="left">22 AWG (0.34 mm²)</td>
+   <td balign="left">18 AWG (1 mm²)</td>
   </tr></table>
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>HV BATT 3-B:L:LV_FAN_R+</td>
+    <td>HV BATT 3-B:H:LV_FAN_R+</td>
     <td>
-     RED
+     YELLOW
     </td>
     <td>FAN R:LV_FAN_R+</td>
    </tr>
@@ -2833,15 +3257,15 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffff00" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
    </tr>
    <tr>
-    <td>HV BATT 3-B:M:LV_FAN_R-</td>
+    <td>HV BATT 3-B:J:LV_FAN_R-</td>
     <td>
-     BLACK
+     GREEN
     </td>
     <td>FAN R:LV_FAN_R-</td>
    </tr>
@@ -2849,7 +3273,7 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#00ff00" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -3437,6 +3861,12 @@ graph {
 	edge [color="#000000:#ffffff:#000000"]
 	"LV PCB 1-F":p5r:e -- "LV PCB ↔ JUNCTION":w5:w
 	"LV PCB ↔ JUNCTION":w5:e -- "JUNCTION 5-B":p7l:w
+	edge [color="#000000:#ff0000:#000000"]
+	"LV PCB 1-F":p18r:e -- "LV PCB ↔ JUNCTION":w6:w
+	"LV PCB ↔ JUNCTION":w6:e -- "JUNCTION 5-B":p18l:w
+	edge [color="#000000:#000000:#000000"]
+	"LV PCB 1-F":p19r:e -- "LV PCB ↔ JUNCTION":w7:w
+	"LV PCB ↔ JUNCTION":w7:e -- "JUNCTION 5-B":p19l:w
 	"LV PCB ↔ JUNCTION" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -3446,8 +3876,7 @@ graph {
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">5x</td>
-   <td balign="left">22 AWG (0.34 mm²)</td>
+   <td balign="left">7x</td>
   </tr></table>
  </td></tr>
  <tr><td>
@@ -3533,16 +3962,48 @@ graph {
      </table>
     </td>
    </tr>
+   <tr>
+    <td>LV PCB 1-F:U:LV_BATT+</td>
+    <td>
+     RED
+    </td>
+    <td>JUNCTION 5-B:U:LV_BATT+</td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w6" height="6">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>LV PCB 1-F:V:LV_BATT-</td>
+    <td>
+     BLACK
+    </td>
+    <td>JUNCTION 5-B:V:LV_BATT-</td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w7" height="6">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
    <tr><td>&nbsp;</td></tr>
   </table>
  </td></tr>
 </table>
 > fillcolor="#FFFFFF" shape=box style="filled,dashed"]
 	edge [color="#000000:#8000ff:#000000"]
-	"LV PCB 1-F":p7r:e -- "LV PCB ↔ SPK L":w1:w
+	"LV PCB 1-H":p15r:e -- "LV PCB ↔ SPK L":w1:w
 	"LV PCB ↔ SPK L":w1:e -- "SPK L":p1l:w
-	edge [color="#000000:#895956:#000000"]
-	"LV PCB 1-F":p8r:e -- "LV PCB ↔ SPK L":w2:w
+	edge [color="#000000:#999999:#000000"]
+	"LV PCB 1-H":p16r:e -- "LV PCB ↔ SPK L":w2:w
 	"LV PCB ↔ SPK L":w2:e -- "SPK L":p2l:w
 	"LV PCB ↔ SPK L" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -3561,7 +4022,7 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>LV PCB 1-F:G:SPK_L+</td>
+    <td>LV PCB 1-H:R:SPK_L+</td>
     <td>
      VIOLET
     </td>
@@ -3577,9 +4038,9 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>LV PCB 1-F:H:SPK_L-</td>
+    <td>LV PCB 1-H:S:SPK_L-</td>
     <td>
-     BROWN
+     GREY
     </td>
     <td>SPK L:SPK_L-</td>
    </tr>
@@ -3587,7 +4048,7 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#895956" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#999999" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -3598,10 +4059,10 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style="filled,dashed"]
 	edge [color="#000000:#8000ff:#000000"]
-	"LV PCB 1-F":p9r:e -- "LV PCB ↔ SPK R":w1:w
+	"LV PCB 1-I":p15r:e -- "LV PCB ↔ SPK R":w1:w
 	"LV PCB ↔ SPK R":w1:e -- "SPK R":p1l:w
-	edge [color="#000000:#895956:#000000"]
-	"LV PCB 1-F":p10r:e -- "LV PCB ↔ SPK R":w2:w
+	edge [color="#000000:#999999:#000000"]
+	"LV PCB 1-I":p16r:e -- "LV PCB ↔ SPK R":w2:w
 	"LV PCB ↔ SPK R":w2:e -- "SPK R":p2l:w
 	"LV PCB ↔ SPK R" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -3620,7 +4081,7 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>LV PCB 1-F:J:SPK_R+</td>
+    <td>LV PCB 1-I:R:SPK_R+</td>
     <td>
      VIOLET
     </td>
@@ -3636,9 +4097,9 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>LV PCB 1-F:K:SPK_R-</td>
+    <td>LV PCB 1-I:S:SPK_R-</td>
     <td>
-     BROWN
+     GREY
     </td>
     <td>SPK R:SPK_R-</td>
    </tr>
@@ -3646,7 +4107,7 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#895956" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#999999" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -3657,10 +4118,10 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style="filled,dashed"]
 	edge [color="#000000:#ff0000:#000000"]
-	"LV PCB 1-F":p12r:e -- "LV PCB ↔ BRAKE LIGHT":w1:w
+	"LV PCB 1-F":p7r:e -- "LV PCB ↔ BRAKE LIGHT":w1:w
 	"LV PCB ↔ BRAKE LIGHT":w1:e -- "BRAKE LIGHT":p1l:w
 	edge [color="#000000:#000000:#000000"]
-	"LV PCB 1-F":p13r:e -- "LV PCB ↔ BRAKE LIGHT":w2:w
+	"LV PCB 1-F":p8r:e -- "LV PCB ↔ BRAKE LIGHT":w2:w
 	"LV PCB ↔ BRAKE LIGHT":w2:e -- "BRAKE LIGHT":p2l:w
 	"LV PCB ↔ BRAKE LIGHT" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -3679,7 +4140,7 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>LV PCB 1-F:M:BRAKE_LIGHT+</td>
+    <td>LV PCB 1-F:G:BRAKE_LIGHT+</td>
     <td>
      RED
     </td>
@@ -3695,7 +4156,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>LV PCB 1-F:N:BRAKE_LIGHT-</td>
+    <td>LV PCB 1-F:H:BRAKE_LIGHT-</td>
     <td>
      BLACK
     </td>
@@ -3716,10 +4177,10 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style="filled,dashed"]
 	edge [color="#000000:#ffffff:#000000"]
-	"LV PCB 1-F":p17r:e -- "LV PCB ↔ BRAKE SWITCH":w1:w
+	"LV PCB 1-F":p12r:e -- "LV PCB ↔ BRAKE SWITCH":w1:w
 	"LV PCB ↔ BRAKE SWITCH":w1:e -- "BRAKE SWITCH":p1l:w
-	edge [color="#000000:#ffffff:#000000"]
-	"LV PCB 1-F":p18r:e -- "LV PCB ↔ BRAKE SWITCH":w2:w
+	edge [color="#000000:#8000ff:#000000"]
+	"LV PCB 1-F":p13r:e -- "LV PCB ↔ BRAKE SWITCH":w2:w
 	"LV PCB ↔ BRAKE SWITCH":w2:e -- "BRAKE SWITCH":p2l:w
 	"LV PCB ↔ BRAKE SWITCH" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -3738,7 +4199,7 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>LV PCB 1-F:T:BRAKE_SW1</td>
+    <td>LV PCB 1-F:M:BRAKE_SW1</td>
     <td>
      WHITE
     </td>
@@ -3754,9 +4215,9 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>LV PCB 1-F:U:BRAKE_SW2</td>
+    <td>LV PCB 1-F:N:BRAKE_SW2</td>
     <td>
-     WHITE
+     VIOLET
     </td>
     <td>BRAKE SWITCH:BRAKE_SW2</td>
    </tr>
@@ -3764,7 +4225,7 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#8000ff" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -3786,10 +4247,10 @@ graph {
 	edge [color="#000000:#8000ff:#000000"]
 	"LV PCB 1-E":p4r:e -- "LV PCB ↔ DASHBOARD":w4:w
 	"LV PCB ↔ DASHBOARD":w4:e -- DASHBOARD:p4l:w
-	edge [color="#000000:#895956:#000000"]
+	edge [color="#000000:#000000:#000000"]
 	"LV PCB 1-E":p6r:e -- "LV PCB ↔ DASHBOARD":w5:w
 	"LV PCB ↔ DASHBOARD":w5:e -- DASHBOARD:p6l:w
-	edge [color="#000000:#895956:#000000"]
+	edge [color="#000000:#000000:#000000"]
 	"LV PCB 1-E":p7r:e -- "LV PCB ↔ DASHBOARD":w6:w
 	"LV PCB ↔ DASHBOARD":w6:e -- DASHBOARD:p7l:w
 	edge [color="#000000:#ffffff:#000000"]
@@ -3832,7 +4293,6 @@ graph {
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
    <td balign="left">16x</td>
-   <td balign="left">22 AWG (0.34 mm²)</td>
   </tr></table>
  </td></tr>
  <tr><td>
@@ -3905,7 +4365,7 @@ graph {
    <tr>
     <td>LV PCB 1-E:F:HV_AUX_C1</td>
     <td>
-     BROWN
+     BLACK
     </td>
     <td>DASHBOARD:F:HV_AUX_C1</td>
    </tr>
@@ -3913,7 +4373,7 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w5" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#895956" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -3921,7 +4381,7 @@ graph {
    <tr>
     <td>LV PCB 1-E:G:HV_AUX_C2</td>
     <td>
-     BROWN
+     BLACK
     </td>
     <td>DASHBOARD:G:HV_AUX_C2</td>
    </tr>
@@ -3929,7 +4389,7 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w6" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#895956" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -4100,13 +4560,13 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style="filled,dashed"]
 	edge [color="#000000:#00ff00:#000000"]
-	"LV PCB 1-G":p5r:e -- "LV PCB ↔ DEBUG SERIAL":w1:w
+	"LV PCB 1-G":p17r:e -- "LV PCB ↔ DEBUG SERIAL":w1:w
 	"LV PCB ↔ DEBUG SERIAL":w1:e -- "DEBUG SERIAL":p2l:w
 	edge [color="#000000:#0066ff:#000000"]
 	"LV PCB 1-G":p6r:e -- "LV PCB ↔ DEBUG SERIAL":w2:w
 	"LV PCB ↔ DEBUG SERIAL":w2:e -- "DEBUG SERIAL":p3l:w
 	edge [color="#000000:#000000:#000000"]
-	"LV PCB 1-G":p7r:e -- "LV PCB ↔ DEBUG SERIAL":w3:w
+	"LV PCB 1-G":p16r:e -- "LV PCB ↔ DEBUG SERIAL":w3:w
 	"LV PCB ↔ DEBUG SERIAL":w3:e -- "DEBUG SERIAL":p5l:w
 	"LV PCB ↔ DEBUG SERIAL" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -4125,7 +4585,7 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>LV PCB 1-G:E:RS232_DEBUG_TX</td>
+    <td>LV PCB 1-G:T:RS232_DEBUG_TX</td>
     <td>
      GREEN
     </td>
@@ -4157,7 +4617,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>LV PCB 1-G:G:RS232_DEBUG_GND</td>
+    <td>LV PCB 1-G:S:RS232_DEBUG_GND</td>
     <td>
      BLACK
     </td>
@@ -4256,69 +4716,10 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style="filled,dashed"]
 	edge [color="#000000:#ff0000:#000000"]
-	"LV PCB 1-D":p1r:e -- "LV PCB ↔ LV BATT":w1:w
-	"LV PCB ↔ LV BATT":w1:e -- "LV BATT":p1l:w
-	edge [color="#000000:#000000:#000000"]
-	"LV PCB 1-D":p2r:e -- "LV PCB ↔ LV BATT":w2:w
-	"LV PCB ↔ LV BATT":w2:e -- "LV BATT":p2l:w
-	"LV PCB ↔ LV BATT" [label=<
-<table border="0" cellspacing="0" cellpadding="0">
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">LV PCB ↔ LV BATT</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">2x</td>
-   <td balign="left">22 AWG (0.34 mm²)</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellborder="0">
-   <tr><td>&nbsp;</td></tr>
-   <tr>
-    <td>LV PCB 1-D:A:LV+</td>
-    <td>
-     RED
-    </td>
-    <td>LV BATT:1:LV+</td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr>
-    <td>LV PCB 1-D:B:LV-</td>
-    <td>
-     BLACK
-    </td>
-    <td>LV BATT:2:LV-</td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr><td>&nbsp;</td></tr>
-  </table>
- </td></tr>
-</table>
-> fillcolor="#FFFFFF" shape=box style="filled,dashed"]
-	edge [color="#000000:#999999:#000000"]
-	"LV PCB 1-D":p4r:e -- "LV PCB ↔ BOTS":w1:w
+	"LV PCB 1-F":p14r:e -- "LV PCB ↔ BOTS":w1:w
 	"LV PCB ↔ BOTS":w1:e -- BOTS:p1l:w
-	edge [color="#000000:#999999:#000000"]
-	"LV PCB 1-D":p5r:e -- "LV PCB ↔ BOTS":w2:w
+	edge [color="#000000:#ff0000:#000000"]
+	"LV PCB 1-F":p17r:e -- "LV PCB ↔ BOTS":w2:w
 	"LV PCB ↔ BOTS":w2:e -- BOTS:p2l:w
 	"LV PCB ↔ BOTS" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -4330,16 +4731,16 @@ graph {
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
    <td balign="left">2x</td>
-   <td balign="left">22 AWG (0.34 mm²)</td>
+   <td balign="left">18 AWG (1 mm²)</td>
   </tr></table>
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>LV PCB 1-D:D:BOTS1</td>
+    <td>LV PCB 1-F:P:BOTS1</td>
     <td>
-     GREY
+     RED
     </td>
     <td>BOTS:1:BOTS1</td>
    </tr>
@@ -4347,15 +4748,15 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#999999" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
    </tr>
    <tr>
-    <td>LV PCB 1-D:E:BOTS2</td>
+    <td>LV PCB 1-F:T:BOTS2</td>
     <td>
-     GREY
+     RED
     </td>
     <td>BOTS:2:BOTS2</td>
    </tr>
@@ -4363,7 +4764,7 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#999999" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -4373,11 +4774,11 @@ graph {
  </td></tr>
 </table>
 > fillcolor="#FFFFFF" shape=box style="filled,dashed"]
-	edge [color="#000000:#8000ff:#000000"]
-	"LV PCB 1-D":p7r:e -- "LV PCB ↔ HV AUX L":w1:w
+	edge [color="#000000:#ff0000:#000000"]
+	"LV PCB 1-H":p18r:e -- "LV PCB ↔ HV AUX L":w1:w
 	"LV PCB ↔ HV AUX L":w1:e -- "HV AUX L":p1l:w
-	edge [color="#000000:#8000ff:#000000"]
-	"LV PCB 1-D":p8r:e -- "LV PCB ↔ HV AUX L":w2:w
+	edge [color="#000000:#ff0000:#000000"]
+	"LV PCB 1-H":p19r:e -- "LV PCB ↔ HV AUX L":w2:w
 	"LV PCB ↔ HV AUX L":w2:e -- "HV AUX L":p2l:w
 	"LV PCB ↔ HV AUX L" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -4389,16 +4790,16 @@ graph {
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
    <td balign="left">2x</td>
-   <td balign="left">22 AWG (0.34 mm²)</td>
+   <td balign="left">18 AWG (1 mm²)</td>
   </tr></table>
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>LV PCB 1-D:G:HV_AUX_L1</td>
+    <td>LV PCB 1-H:U:HV_AUX_L1</td>
     <td>
-     VIOLET
+     RED
     </td>
     <td>HV AUX L:1:HV_AUX_L1</td>
    </tr>
@@ -4406,15 +4807,15 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#8000ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
    </tr>
    <tr>
-    <td>LV PCB 1-D:H:HV_AUX_L2</td>
+    <td>LV PCB 1-H:V:HV_AUX_L2</td>
     <td>
-     VIOLET
+     RED
     </td>
     <td>HV AUX L:2:HV_AUX_L2</td>
    </tr>
@@ -4422,7 +4823,7 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#8000ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -4432,11 +4833,11 @@ graph {
  </td></tr>
 </table>
 > fillcolor="#FFFFFF" shape=box style="filled,dashed"]
-	edge [color="#000000:#895956:#000000"]
-	"LV PCB 1-D":p10r:e -- "LV PCB ↔ HV AUX R":w1:w
+	edge [color="#000000:#ff0000:#000000"]
+	"LV PCB 1-I":p18r:e -- "LV PCB ↔ HV AUX R":w1:w
 	"LV PCB ↔ HV AUX R":w1:e -- "HV AUX R":p1l:w
-	edge [color="#000000:#895956:#000000"]
-	"LV PCB 1-D":p11r:e -- "LV PCB ↔ HV AUX R":w2:w
+	edge [color="#000000:#ff0000:#000000"]
+	"LV PCB 1-I":p19r:e -- "LV PCB ↔ HV AUX R":w2:w
 	"LV PCB ↔ HV AUX R":w2:e -- "HV AUX R":p2l:w
 	"LV PCB ↔ HV AUX R" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -4448,16 +4849,16 @@ graph {
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
    <td balign="left">2x</td>
-   <td balign="left">22 AWG (0.34 mm²)</td>
+   <td balign="left">18 AWG (1 mm²)</td>
   </tr></table>
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>LV PCB 1-D:K:HV_AUX_R1</td>
+    <td>LV PCB 1-I:U:HV_AUX_R1</td>
     <td>
-     BROWN
+     RED
     </td>
     <td>HV AUX R:1:HV_AUX_R1</td>
    </tr>
@@ -4465,15 +4866,15 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#895956" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
    </tr>
    <tr>
-    <td>LV PCB 1-D:L:HV_AUX_R2</td>
+    <td>LV PCB 1-I:V:HV_AUX_R2</td>
     <td>
-     BROWN
+     RED
     </td>
     <td>HV AUX R:2:HV_AUX_R2</td>
    </tr>
@@ -4481,7 +4882,7 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#895956" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -4550,30 +4951,30 @@ graph {
  </td></tr>
 </table>
 > fillcolor="#FFFFFF" shape=box style="filled,dashed"]
-	edge [color="#000000:#00ff00:#000000"]
-	"CONTROL BOX 7-B":p3r:e -- "CONTROL BOX ↔ LV PCB":w1:w
+	edge [color="#000000:#000000:#000000"]
+	"CONTROL BOX 7-B":p1r:e -- "CONTROL BOX ↔ LV PCB":w1:w
 	"CONTROL BOX ↔ LV PCB":w1:e -- "LV PCB 1-C":p1l:w
-	edge [color="#000000:#00ff00:#000000"]
-	"CONTROL BOX 7-B":p4r:e -- "CONTROL BOX ↔ LV PCB":w2:w
+	edge [color="#000000:#000000:#000000"]
+	"CONTROL BOX 7-B":p2r:e -- "CONTROL BOX ↔ LV PCB":w2:w
 	"CONTROL BOX ↔ LV PCB":w2:e -- "LV PCB 1-C":p2l:w
-	edge [color="#000000:#8000ff:#000000"]
-	"CONTROL BOX 7-B":p6r:e -- "CONTROL BOX ↔ LV PCB":w3:w
+	edge [color="#000000:#ff0000:#000000"]
+	"CONTROL BOX 7-B":p4r:e -- "CONTROL BOX ↔ LV PCB":w3:w
 	"CONTROL BOX ↔ LV PCB":w3:e -- "LV PCB 1-C":p4l:w
-	edge [color="#000000:#8000ff:#000000"]
-	"CONTROL BOX 7-B":p7r:e -- "CONTROL BOX ↔ LV PCB":w4:w
+	edge [color="#000000:#ff0000:#000000"]
+	"CONTROL BOX 7-B":p5r:e -- "CONTROL BOX ↔ LV PCB":w4:w
 	"CONTROL BOX ↔ LV PCB":w4:e -- "LV PCB 1-C":p5l:w
 	edge [color="#000000:#895956:#000000"]
-	"CONTROL BOX 7-B":p9r:e -- "CONTROL BOX ↔ LV PCB":w5:w
+	"CONTROL BOX 7-B":p7r:e -- "CONTROL BOX ↔ LV PCB":w5:w
 	"CONTROL BOX ↔ LV PCB":w5:e -- "LV PCB 1-C":p7l:w
 	edge [color="#000000:#895956:#000000"]
-	"CONTROL BOX 7-B":p10r:e -- "CONTROL BOX ↔ LV PCB":w6:w
+	"CONTROL BOX 7-B":p8r:e -- "CONTROL BOX ↔ LV PCB":w6:w
 	"CONTROL BOX ↔ LV PCB":w6:e -- "LV PCB 1-C":p8l:w
 	edge [color="#000000:#ffffff:#000000"]
-	"CONTROL BOX 7-B":p12r:e -- "CONTROL BOX ↔ LV PCB":w7:w
-	"CONTROL BOX ↔ LV PCB":w7:e -- "LV PCB 1-C":p10l:w
+	"CONTROL BOX 7-B":p9r:e -- "CONTROL BOX ↔ LV PCB":w7:w
+	"CONTROL BOX ↔ LV PCB":w7:e -- "LV PCB 1-C":p9l:w
 	edge [color="#000000:#000000:#000000"]
-	"CONTROL BOX 7-B":p13r:e -- "CONTROL BOX ↔ LV PCB":w8:w
-	"CONTROL BOX ↔ LV PCB":w8:e -- "LV PCB 1-C":p11l:w
+	"CONTROL BOX 7-B":p10r:e -- "CONTROL BOX ↔ LV PCB":w8:w
+	"CONTROL BOX ↔ LV PCB":w8:e -- "LV PCB 1-C":p10l:w
 	"CONTROL BOX ↔ LV PCB" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -4584,16 +4985,15 @@ graph {
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
    <td balign="left">8x</td>
-   <td balign="left">22 AWG (0.34 mm²)</td>
   </tr></table>
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>CONTROL BOX 7-B:C:LV_MASTER1</td>
+    <td>CONTROL BOX 7-B:A:LV_MASTER1</td>
     <td>
-     GREEN
+     BLACK
     </td>
     <td>LV PCB 1-C:A:LV_MASTER1</td>
    </tr>
@@ -4601,15 +5001,15 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#00ff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
    </tr>
    <tr>
-    <td>CONTROL BOX 7-B:D:LV_MASTER2</td>
+    <td>CONTROL BOX 7-B:B:LV_MASTER2</td>
     <td>
-     GREEN
+     BLACK
     </td>
     <td>LV PCB 1-C:B:LV_MASTER2</td>
    </tr>
@@ -4617,15 +5017,15 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#00ff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
    </tr>
    <tr>
-    <td>CONTROL BOX 7-B:F:HV_MASTER1</td>
+    <td>CONTROL BOX 7-B:D:HV_MASTER1</td>
     <td>
-     VIOLET
+     RED
     </td>
     <td>LV PCB 1-C:D:HV_MASTER1</td>
    </tr>
@@ -4633,15 +5033,15 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#8000ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
    </tr>
    <tr>
-    <td>CONTROL BOX 7-B:G:HV_MASTER2</td>
+    <td>CONTROL BOX 7-B:E:HV_MASTER2</td>
     <td>
-     VIOLET
+     RED
     </td>
     <td>LV PCB 1-C:E:HV_MASTER2</td>
    </tr>
@@ -4649,13 +5049,13 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w4" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#8000ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
    </tr>
    <tr>
-    <td>CONTROL BOX 7-B:J:RESET1</td>
+    <td>CONTROL BOX 7-B:G:RESET1</td>
     <td>
      BROWN
     </td>
@@ -4671,7 +5071,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>CONTROL BOX 7-B:K:RESET2</td>
+    <td>CONTROL BOX 7-B:H:RESET2</td>
     <td>
      BROWN
     </td>
@@ -4687,11 +5087,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>CONTROL BOX 7-B:M:CAN_H_LOGGER</td>
+    <td>CONTROL BOX 7-B:J:CAN_H_LOGGER</td>
     <td>
      WHITE
     </td>
-    <td>LV PCB 1-C:K:CAN_H_LOGGER</td>
+    <td>LV PCB 1-C:J:CAN_H_LOGGER</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w7" height="6">
@@ -4703,11 +5103,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>CONTROL BOX 7-B:N:CAN_L_LOGGER</td>
+    <td>CONTROL BOX 7-B:K:CAN_L_LOGGER</td>
     <td>
      BLACK
     </td>
-    <td>LV PCB 1-C:L:CAN_L_LOGGER</td>
+    <td>LV PCB 1-C:K:CAN_L_LOGGER</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w8" height="6">
@@ -4724,7 +5124,7 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style="filled,dashed"]
 	edge [color="#000000:#000000:#000000"]
-	"CONTROL BOX 7-B":p1r:e -- "CONTROL BOX ↔ CHASSIS":w1:w
+	"CONTROL BOX 7-B":p19r:e -- "CONTROL BOX ↔ CHASSIS":w1:w
 	"CONTROL BOX ↔ CHASSIS":w1:e -- CHASSIS:p1l:w
 	"CONTROL BOX ↔ CHASSIS" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -4736,14 +5136,14 @@ graph {
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
    <td balign="left">1x</td>
-   <td balign="left">22 AWG (0.34 mm²)</td>
+   <td balign="left">18 AWG (1 mm²)</td>
   </tr></table>
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>CONTROL BOX 7-B:A:CHASSIS</td>
+    <td>CONTROL BOX 7-B:V:CHASSIS</td>
     <td>
      BLACK
     </td>
@@ -4766,10 +5166,10 @@ graph {
 	edge [color="#000000:#ff0000:#000000"]
 	"INVERTER J1":p9r:e -- "INVERTER J1 ↔ MOTOR":w1:w
 	"INVERTER J1 ↔ MOTOR":w1:e -- MOTOR:p7l:w
-	edge [color="#000000:#00ff00:#000000"]
+	edge [color="#000000:#895956:#000000"]
 	"INVERTER J1":p3r:e -- "INVERTER J1 ↔ MOTOR":w2:w
-	"INVERTER J1 ↔ MOTOR":w2:e -- MOTOR:p8l:w
-	edge [color="#000000:#000000:#000000"]
+	"INVERTER J1 ↔ MOTOR":w2:e -- MOTOR:p7l:w
+	edge [color="#000000:#895956:#000000"]
 	"INVERTER J1":p14r:e -- "INVERTER J1 ↔ MOTOR":w3:w
 	"INVERTER J1 ↔ MOTOR":w3:e -- MOTOR:p8l:w
 	"INVERTER J1 ↔ MOTOR" [label=<
@@ -4807,15 +5207,15 @@ graph {
    <tr>
     <td>INVERTER J1:24:AIN2</td>
     <td>
-     GREEN
+     BROWN
     </td>
-    <td>MOTOR:TH2</td>
+    <td>MOTOR:TH1</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#00ff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#895956" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -4823,7 +5223,7 @@ graph {
    <tr>
     <td>INVERTER J1:17:AGND</td>
     <td>
-     BLACK
+     BROWN
     </td>
     <td>MOTOR:TH2</td>
    </tr>
@@ -4831,7 +5231,7 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#895956" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -4847,7 +5247,7 @@ graph {
 	edge [color="#000000:#00ff00:#000000"]
 	"INVERTER J1":p2r:e -- "INVERTER J1 ↔ APPS":w2:w
 	"INVERTER J1 ↔ APPS":w2:e -- APPS:p2l:w
-	edge [color="#000000:#000000:#000000"]
+	edge [color="#000000:#999999:#000000"]
 	"INVERTER J1":p4r:e -- "INVERTER J1 ↔ APPS":w3:w
 	"INVERTER J1 ↔ APPS":w3:e -- APPS:p3l:w
 	"INVERTER J1 ↔ APPS" [label=<
@@ -4901,7 +5301,7 @@ graph {
    <tr>
     <td>INVERTER J1:2:AGND</td>
     <td>
-     BLACK
+     GREY
     </td>
     <td>APPS:3:GND</td>
    </tr>
@@ -4909,7 +5309,7 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#999999" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -4925,7 +5325,7 @@ graph {
 	edge [color="#000000:#00ff00:#000000"]
 	"INVERTER J1":p6r:e -- "INVERTER J1 ↔ RPS FRONT":w2:w
 	"INVERTER J1 ↔ RPS FRONT":w2:e -- "RPS FRONT":p2l:w
-	edge [color="#000000:#000000:#000000"]
+	edge [color="#000000:#999999:#000000"]
 	"INVERTER J1":p8r:e -- "INVERTER J1 ↔ RPS FRONT":w3:w
 	"INVERTER J1 ↔ RPS FRONT":w3:e -- "RPS FRONT":p3l:w
 	"INVERTER J1 ↔ RPS FRONT" [label=<
@@ -4979,7 +5379,7 @@ graph {
    <tr>
     <td>INVERTER J1:15:AGND</td>
     <td>
-     BLACK
+     GREY
     </td>
     <td>RPS FRONT:3:GND</td>
    </tr>
@@ -4987,7 +5387,7 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#999999" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -4998,13 +5398,13 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style="filled,dashed"]
 	edge [color="#000000:#ff0000:#000000"]
-	"LV PCB 1-F":p14r:e -- "LV PCB ↔ RPS REAR":w1:w
+	"LV PCB 1-F":p9r:e -- "LV PCB ↔ RPS REAR":w1:w
 	"LV PCB ↔ RPS REAR":w1:e -- "RPS REAR":p1l:w
 	edge [color="#000000:#00ff00:#000000"]
-	"LV PCB 1-F":p15r:e -- "LV PCB ↔ RPS REAR":w2:w
+	"LV PCB 1-F":p10r:e -- "LV PCB ↔ RPS REAR":w2:w
 	"LV PCB ↔ RPS REAR":w2:e -- "RPS REAR":p2l:w
 	edge [color="#000000:#000000:#000000"]
-	"LV PCB 1-F":p16r:e -- "LV PCB ↔ RPS REAR":w3:w
+	"LV PCB 1-F":p11r:e -- "LV PCB ↔ RPS REAR":w3:w
 	"LV PCB ↔ RPS REAR":w3:e -- "RPS REAR":p3l:w
 	"LV PCB ↔ RPS REAR" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -5023,7 +5423,7 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>LV PCB 1-F:P:BRAKE_PWR</td>
+    <td>LV PCB 1-F:J:BRAKE_PWR</td>
     <td>
      RED
     </td>
@@ -5039,7 +5439,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>LV PCB 1-F:R:BRAKE_SIG</td>
+    <td>LV PCB 1-F:K:BRAKE_SIG</td>
     <td>
      GREEN
     </td>
@@ -5055,7 +5455,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>LV PCB 1-F:S:BRAKE_GND</td>
+    <td>LV PCB 1-F:L:BRAKE_GND</td>
     <td>
      BLACK
     </td>
@@ -5081,7 +5481,7 @@ graph {
 	edge [color="#000000:#00ff00:#000000"]
 	"LV PCB 1-H":p2r:e -- "LV PCB ↔ DIST FL":w2:w
 	"LV PCB ↔ DIST FL":w2:e -- "DIST FL":p2l:w
-	edge [color="#000000:#000000:#000000"]
+	edge [color="#000000:#999999:#000000"]
 	"LV PCB 1-H":p3r:e -- "LV PCB ↔ DIST FL":w3:w
 	"LV PCB ↔ DIST FL":w3:e -- "DIST FL":p3l:w
 	"LV PCB ↔ DIST FL" [label=<
@@ -5135,7 +5535,7 @@ graph {
    <tr>
     <td>LV PCB 1-H:C:DIST_FL_GND</td>
     <td>
-     BLACK
+     GREY
     </td>
     <td>DIST FL:3:GND</td>
    </tr>
@@ -5143,7 +5543,7 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#999999" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -5154,13 +5554,13 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style="filled,dashed"]
 	edge [color="#000000:#ff0000:#000000"]
-	"LV PCB 1-H":p9r:e -- "LV PCB ↔ DIST RL":w1:w
+	"LV PCB 1-H":p8r:e -- "LV PCB ↔ DIST RL":w1:w
 	"LV PCB ↔ DIST RL":w1:e -- "DIST RL":p1l:w
 	edge [color="#000000:#00ff00:#000000"]
-	"LV PCB 1-H":p10r:e -- "LV PCB ↔ DIST RL":w2:w
+	"LV PCB 1-H":p9r:e -- "LV PCB ↔ DIST RL":w2:w
 	"LV PCB ↔ DIST RL":w2:e -- "DIST RL":p2l:w
-	edge [color="#000000:#000000:#000000"]
-	"LV PCB 1-H":p11r:e -- "LV PCB ↔ DIST RL":w3:w
+	edge [color="#000000:#999999:#000000"]
+	"LV PCB 1-H":p10r:e -- "LV PCB ↔ DIST RL":w3:w
 	"LV PCB ↔ DIST RL":w3:e -- "DIST RL":p3l:w
 	"LV PCB ↔ DIST RL" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -5179,7 +5579,7 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>LV PCB 1-H:J:DIST_RL_PWR</td>
+    <td>LV PCB 1-H:H:DIST_RL_PWR</td>
     <td>
      RED
     </td>
@@ -5195,7 +5595,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>LV PCB 1-H:K:DIST_RL_SIG</td>
+    <td>LV PCB 1-H:J:DIST_RL_SIG</td>
     <td>
      GREEN
     </td>
@@ -5211,9 +5611,9 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>LV PCB 1-H:L:DIST_RL_GND</td>
+    <td>LV PCB 1-H:K:DIST_RL_GND</td>
     <td>
-     BLACK
+     GREY
     </td>
     <td>DIST RL:3:GND</td>
    </tr>
@@ -5221,7 +5621,7 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#999999" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -5234,7 +5634,7 @@ graph {
 	edge [color="#000000:#ff0000:#000000"]
 	"LV PCB 1-H":p5r:e -- "LV PCB ↔ SPD FL":w1:w
 	"LV PCB ↔ SPD FL":w1:e -- "SPD FL":p1l:w
-	edge [color="#000000:#00ff00:#000000"]
+	edge [color="#000000:#000000:#000000"]
 	"LV PCB 1-H":p6r:e -- "LV PCB ↔ SPD FL":w2:w
 	"LV PCB ↔ SPD FL":w2:e -- "SPD FL":p2l:w
 	"LV PCB ↔ SPD FL" [label=<
@@ -5272,7 +5672,7 @@ graph {
    <tr>
     <td>LV PCB 1-H:F:SPD_FL_SIG</td>
     <td>
-     GREEN
+     BLACK
     </td>
     <td>SPD FL:2:SIG</td>
    </tr>
@@ -5280,7 +5680,7 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#00ff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -5291,10 +5691,10 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style="filled,dashed"]
 	edge [color="#000000:#ff0000:#000000"]
-	"LV PCB 1-H":p13r:e -- "LV PCB ↔ SPD RL":w1:w
+	"LV PCB 1-H":p12r:e -- "LV PCB ↔ SPD RL":w1:w
 	"LV PCB ↔ SPD RL":w1:e -- "SPD RL":p1l:w
-	edge [color="#000000:#00ff00:#000000"]
-	"LV PCB 1-H":p14r:e -- "LV PCB ↔ SPD RL":w2:w
+	edge [color="#000000:#000000:#000000"]
+	"LV PCB 1-H":p13r:e -- "LV PCB ↔ SPD RL":w2:w
 	"LV PCB ↔ SPD RL":w2:e -- "SPD RL":p2l:w
 	"LV PCB ↔ SPD RL" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -5313,7 +5713,7 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>LV PCB 1-H:N:SPD_RL_PWR</td>
+    <td>LV PCB 1-H:M:SPD_RL_PWR</td>
     <td>
      RED
     </td>
@@ -5329,9 +5729,9 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>LV PCB 1-H:P:SPD_RL_SIG</td>
+    <td>LV PCB 1-H:N:SPD_RL_SIG</td>
     <td>
-     GREEN
+     BLACK
     </td>
     <td>SPD RL:2:SIG</td>
    </tr>
@@ -5339,7 +5739,7 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#00ff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -5355,7 +5755,7 @@ graph {
 	edge [color="#000000:#00ff00:#000000"]
 	"LV PCB 1-I":p2r:e -- "LV PCB ↔ DIST FR":w2:w
 	"LV PCB ↔ DIST FR":w2:e -- "DIST FR":p2l:w
-	edge [color="#000000:#000000:#000000"]
+	edge [color="#000000:#999999:#000000"]
 	"LV PCB 1-I":p3r:e -- "LV PCB ↔ DIST FR":w3:w
 	"LV PCB ↔ DIST FR":w3:e -- "DIST FR":p3l:w
 	"LV PCB ↔ DIST FR" [label=<
@@ -5409,7 +5809,7 @@ graph {
    <tr>
     <td>LV PCB 1-I:C:DIST_FR_GND</td>
     <td>
-     BLACK
+     GREY
     </td>
     <td>DIST FR:3:GND</td>
    </tr>
@@ -5417,7 +5817,7 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#999999" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -5428,13 +5828,13 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style="filled,dashed"]
 	edge [color="#000000:#ff0000:#000000"]
-	"LV PCB 1-I":p9r:e -- "LV PCB ↔ DIST RR":w1:w
+	"LV PCB 1-I":p8r:e -- "LV PCB ↔ DIST RR":w1:w
 	"LV PCB ↔ DIST RR":w1:e -- "DIST RR":p1l:w
 	edge [color="#000000:#00ff00:#000000"]
-	"LV PCB 1-I":p10r:e -- "LV PCB ↔ DIST RR":w2:w
+	"LV PCB 1-I":p9r:e -- "LV PCB ↔ DIST RR":w2:w
 	"LV PCB ↔ DIST RR":w2:e -- "DIST RR":p2l:w
-	edge [color="#000000:#000000:#000000"]
-	"LV PCB 1-I":p11r:e -- "LV PCB ↔ DIST RR":w3:w
+	edge [color="#000000:#999999:#000000"]
+	"LV PCB 1-I":p10r:e -- "LV PCB ↔ DIST RR":w3:w
 	"LV PCB ↔ DIST RR":w3:e -- "DIST RR":p3l:w
 	"LV PCB ↔ DIST RR" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -5453,7 +5853,7 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>LV PCB 1-I:J:DIST_RR_PWR</td>
+    <td>LV PCB 1-I:H:DIST_RR_PWR</td>
     <td>
      RED
     </td>
@@ -5469,7 +5869,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>LV PCB 1-I:K:DIST_RR_SIG</td>
+    <td>LV PCB 1-I:J:DIST_RR_SIG</td>
     <td>
      GREEN
     </td>
@@ -5485,9 +5885,9 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>LV PCB 1-I:L:DIST_RR_GND</td>
+    <td>LV PCB 1-I:K:DIST_RR_GND</td>
     <td>
-     BLACK
+     GREY
     </td>
     <td>DIST RR:3:GND</td>
    </tr>
@@ -5495,7 +5895,7 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#999999" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -5508,7 +5908,7 @@ graph {
 	edge [color="#000000:#ff0000:#000000"]
 	"LV PCB 1-I":p5r:e -- "LV PCB ↔ SPD FR":w1:w
 	"LV PCB ↔ SPD FR":w1:e -- "SPD FR":p1l:w
-	edge [color="#000000:#00ff00:#000000"]
+	edge [color="#000000:#000000:#000000"]
 	"LV PCB 1-I":p6r:e -- "LV PCB ↔ SPD FR":w2:w
 	"LV PCB ↔ SPD FR":w2:e -- "SPD FR":p2l:w
 	"LV PCB ↔ SPD FR" [label=<
@@ -5546,7 +5946,7 @@ graph {
    <tr>
     <td>LV PCB 1-I:F:SPD_FR_SIG</td>
     <td>
-     GREEN
+     BLACK
     </td>
     <td>SPD FR:2:SIG</td>
    </tr>
@@ -5554,7 +5954,7 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#00ff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -5565,10 +5965,10 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style="filled,dashed"]
 	edge [color="#000000:#ff0000:#000000"]
-	"LV PCB 1-I":p13r:e -- "LV PCB ↔ SPD RR":w1:w
+	"LV PCB 1-I":p12r:e -- "LV PCB ↔ SPD RR":w1:w
 	"LV PCB ↔ SPD RR":w1:e -- "SPD RR":p1l:w
-	edge [color="#000000:#00ff00:#000000"]
-	"LV PCB 1-I":p14r:e -- "LV PCB ↔ SPD RR":w2:w
+	edge [color="#000000:#000000:#000000"]
+	"LV PCB 1-I":p13r:e -- "LV PCB ↔ SPD RR":w2:w
 	"LV PCB ↔ SPD RR":w2:e -- "SPD RR":p2l:w
 	"LV PCB ↔ SPD RR" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -5587,7 +5987,7 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>LV PCB 1-I:N:SPD_RR_PWR</td>
+    <td>LV PCB 1-I:M:SPD_RR_PWR</td>
     <td>
      RED
     </td>
@@ -5603,9 +6003,9 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>LV PCB 1-I:P:SPD_RR_SIG</td>
+    <td>LV PCB 1-I:N:SPD_RR_SIG</td>
     <td>
-     GREEN
+     BLACK
     </td>
     <td>SPD RR:2:SIG</td>
    </tr>
@@ -5613,7 +6013,7 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#00ff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
