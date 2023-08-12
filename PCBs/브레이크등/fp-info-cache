@@ -1,4 +1,4 @@
-20289710906618253
+20291561785455752
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85792,6 +85792,13 @@ footprint
 2
 2
 footprint
+5566-04
+
+39290043 
+0
+4
+4
+footprint
 5566-08
 
 
@@ -85979,7 +85986,7 @@ STM32F407_HOLDER
 
 0
 100
-38
+42
 footprint
 TACT_SWITCH
 
