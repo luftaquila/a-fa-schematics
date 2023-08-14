@@ -965,7 +965,7 @@ graph {
     <td port="p4r">D</td>
    </tr>
    <tr>
-    <td>-</td>
+    <td>LV_FAN_L+</td>
     <td port="p5r">E</td>
    </tr>
    <tr>
@@ -973,11 +973,11 @@ graph {
     <td port="p6r">F</td>
    </tr>
    <tr>
-    <td>LV_FAN_L+</td>
+    <td>LV_FAN_R+</td>
     <td port="p7r">G</td>
    </tr>
    <tr>
-    <td>LV_FAN_R+</td>
+    <td>-</td>
     <td port="p8r">H</td>
    </tr>
    <tr>
@@ -3206,7 +3206,7 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style="filled,dashed"]
 	edge [color="#000000:#ffff00:#000000"]
-	"HV BATT 3-B":p7r:e -- "HV BATT ↔ FAN L":w1:w
+	"HV BATT 3-B":p5r:e -- "HV BATT ↔ FAN L":w1:w
 	"HV BATT ↔ FAN L":w1:e -- "FAN L":p1l:w
 	edge [color="#000000:#00ff00:#000000"]
 	"HV BATT 3-B":p6r:e -- "HV BATT ↔ FAN L":w2:w
@@ -3228,7 +3228,7 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>HV BATT 3-B:G:LV_FAN_L+</td>
+    <td>HV BATT 3-B:E:LV_FAN_L+</td>
     <td>
      YELLOW
     </td>
@@ -3265,7 +3265,7 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style="filled,dashed"]
 	edge [color="#000000:#ffff00:#000000"]
-	"HV BATT 3-B":p8r:e -- "HV BATT ↔ FAN R":w1:w
+	"HV BATT 3-B":p7r:e -- "HV BATT ↔ FAN R":w1:w
 	"HV BATT ↔ FAN R":w1:e -- "FAN R":p1l:w
 	edge [color="#000000:#00ff00:#000000"]
 	"HV BATT 3-B":p9r:e -- "HV BATT ↔ FAN R":w2:w
@@ -3287,7 +3287,7 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>HV BATT 3-B:H:LV_FAN_R+</td>
+    <td>HV BATT 3-B:G:LV_FAN_R+</td>
     <td>
      YELLOW
     </td>

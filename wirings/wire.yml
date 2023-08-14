@@ -45,7 +45,7 @@ connectors:
 
   HV BATT 3-B:
     <<: *LPT
-    pinlabels: [LV_TSAL+, LV_PUMP+, LV_PUMP-, -, -, LV_FAN_L-, LV_FAN_L+, LV_FAN_R+, LV_FAN_R-, -, TSAL_GREEN, TSAL_RED]
+    pinlabels: [LV_TSAL+, LV_PUMP+, LV_PUMP-, -, LV_FAN_L+, LV_FAN_L-, LV_FAN_R+, -, LV_FAN_R-, -, TSAL_GREEN, TSAL_RED]
 
 
   ######################## INVERTER ########################
